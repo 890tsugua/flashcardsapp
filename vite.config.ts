@@ -45,5 +45,7 @@ export default defineConfig({
   test: {
     environment: 'node',
     include: ['src/**/*.test.ts'],
+    // The persistent module cache doesn't notice new files in decks/, so a just-added deck would go unvalidated.
+    fsModuleCache: false,
   },
 })

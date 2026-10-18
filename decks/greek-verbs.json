@@ -1,0 +1,1006 @@
+{
+  "name": "Greek Verbs: Top 100",
+  "description": "The most used Greek verbs in dictionary form (the \"I\" form: αγοράζω = I buy), with their past and future.",
+  "language": "el-GR",
+  "cards": [
+    {
+      "word": "αποδέχομαι",
+      "translation": "to accept",
+      "transliteration": "apodhéchome",
+      "partOfSpeech": "verb",
+      "definition": "To agree to take something that is offered.",
+      "forms": {"past": "αποδέχτηκα", "future": "θα αποδεχτώ"},
+      "examples": [{"text": "Αποδέχομαι την πρόσκλησή σας.", "translation": "I accept your invitation."}],
+      "notes": "Formal. In everyday speech δέχομαι is more common."
+    },
+    {
+      "word": "προσθέτω",
+      "translation": "to add",
+      "transliteration": "prosthéto",
+      "partOfSpeech": "verb",
+      "definition": "To put something together with something else.",
+      "forms": {"past": "πρόσθεσα", "future": "θα προσθέσω"},
+      "examples": [{"text": "Πρόσθεσε λίγο αλάτι στη σούπα.", "translation": "Add a little salt to the soup."}]
+    },
+    {
+      "word": "επιτρέπω",
+      "translation": "to allow, to permit",
+      "transliteration": "epitrépo",
+      "partOfSpeech": "verb",
+      "definition": "To let someone do something.",
+      "forms": {"past": "επέτρεψα", "future": "θα επιτρέψω"},
+      "examples": [{"text": "Δεν επιτρέπεται το κάπνισμα.", "translation": "Smoking is not allowed."}],
+      "notes": "Επιτρέπεται; = Is it allowed? / May I?"
+    },
+    {
+      "word": "απαντώ",
+      "translation": "to answer, to reply",
+      "transliteration": "apandó",
+      "partOfSpeech": "verb",
+      "definition": "To say or write something back to a question or message.",
+      "forms": {"past": "απάντησα", "future": "θα απαντήσω"},
+      "examples": [{"text": "Δεν απάντησε στο μήνυμά μου.", "translation": "He didn't reply to my message."}],
+      "notes": "Also απαντάω."
+    },
+    {
+      "word": "φτάνω",
+      "translation": "to arrive; to reach",
+      "transliteration": "ftáno",
+      "partOfSpeech": "verb",
+      "definition": "To get to a place.",
+      "forms": {"past": "έφτασα", "future": "θα φτάσω"},
+      "examples": [{"text": "Τι ώρα φτάνει το τρένο;", "translation": "What time does the train arrive?"}],
+      "notes": "Φτάνει! = That's enough!"
+    },
+    {
+      "word": "ρωτάω",
+      "translation": "to ask (a question)",
+      "transliteration": "rotáo",
+      "partOfSpeech": "verb",
+      "definition": "To say something to get information.",
+      "forms": {"past": "ρώτησα", "future": "θα ρωτήσω"},
+      "examples": [{"text": "Μπορώ να σε ρωτήσω κάτι;", "translation": "Can I ask you something?"}],
+      "notes": "Also ρωτώ. To ask for something is ζητάω: Ζητάω βοήθεια = I'm asking for help."
+    },
+    {
+      "word": "είμαι",
+      "translation": "to be",
+      "transliteration": "íme",
+      "partOfSpeech": "verb",
+      "definition": "To exist, or to have a certain identity, quality or state.",
+      "forms": {"past": "ήμουν", "future": "θα είμαι"},
+      "examples": [{"text": "Πού είσαι;", "translation": "Where are you?"}],
+      "notes": "Irregular. Present: είμαι, είσαι, είναι, είμαστε, είστε, είναι."
+    },
+    {
+      "word": "γίνομαι",
+      "translation": "to become; to happen",
+      "transliteration": "yínome",
+      "partOfSpeech": "verb",
+      "definition": "To start to be something; to take place.",
+      "forms": {"past": "έγινα", "future": "θα γίνω"},
+      "examples": [{"text": "Θέλω να γίνω γιατρός.", "translation": "I want to become a doctor."}],
+      "notes": "Τι έγινε; = What happened?"
+    },
+    {
+      "word": "πιστεύω",
+      "translation": "to believe; to think",
+      "transliteration": "pistévo",
+      "partOfSpeech": "verb",
+      "definition": "To accept that something is true; to have an opinion.",
+      "forms": {"past": "πίστεψα", "future": "θα πιστέψω"},
+      "examples": [{"text": "Δεν το πιστεύω!", "translation": "I don't believe it!"}],
+      "notes": "Πιστεύω ότι… = I think that…"
+    },
+    {
+      "word": "σπάω",
+      "translation": "to break",
+      "transliteration": "spáo",
+      "partOfSpeech": "verb",
+      "definition": "To make something separate into pieces, or stop working.",
+      "forms": {"past": "έσπασα", "future": "θα σπάσω"},
+      "examples": [{"text": "Έσπασα το ποτήρι.", "translation": "I broke the glass."}],
+      "notes": "Also σπάζω."
+    },
+    {
+      "word": "φέρνω",
+      "translation": "to bring",
+      "transliteration": "férno",
+      "partOfSpeech": "verb",
+      "definition": "To take something or someone to the place where you are going.",
+      "forms": {"past": "έφερα", "future": "θα φέρω"},
+      "examples": [{"text": "Μπορείτε να μας φέρετε τον λογαριασμό;", "translation": "Could you bring us the bill?"}]
+    },
+    {
+      "word": "αγοράζω",
+      "translation": "to buy",
+      "transliteration": "aghorázo",
+      "partOfSpeech": "verb",
+      "definition": "To get something by paying money for it.",
+      "forms": {"past": "αγόρασα", "future": "θα αγοράσω"},
+      "examples": [{"text": "Πού αγόρασες αυτά τα παπούτσια;", "translation": "Where did you buy these shoes?"}]
+    },
+    {
+      "word": "καλώ",
+      "translation": "to call; to invite",
+      "transliteration": "kaló",
+      "partOfSpeech": "verb",
+      "definition": "To phone someone; to ask someone to come.",
+      "forms": {"past": "κάλεσα", "future": "θα καλέσω"},
+      "examples": [{"text": "Θα σε καλέσω αύριο.", "translation": "I'll call you tomorrow."}],
+      "notes": "For phone calls, also παίρνω τηλέφωνο: Θα σε πάρω τηλέφωνο = I'll call you."
+    },
+    {
+      "word": "αλλάζω",
+      "translation": "to change",
+      "transliteration": "alázo",
+      "partOfSpeech": "verb",
+      "definition": "To become different, or to make something different.",
+      "forms": {"past": "άλλαξα", "future": "θα αλλάξω"},
+      "examples": [{"text": "Άλλαξε ο καιρός.", "translation": "The weather changed."}]
+    },
+    {
+      "word": "διαλέγω",
+      "translation": "to choose, to pick",
+      "transliteration": "dhialégho",
+      "partOfSpeech": "verb",
+      "definition": "To decide which one you want.",
+      "forms": {"past": "διάλεξα", "future": "θα διαλέξω"},
+      "examples": [{"text": "Διάλεξε ό,τι θέλεις.", "translation": "Choose whatever you want."}]
+    },
+    {
+      "word": "καθαρίζω",
+      "translation": "to clean",
+      "transliteration": "katharízo",
+      "partOfSpeech": "verb",
+      "definition": "To remove dirt from something.",
+      "forms": {"past": "καθάρισα", "future": "θα καθαρίσω"},
+      "examples": [{"text": "Καθαρίζω το σπίτι κάθε Σάββατο.", "translation": "I clean the house every Saturday."}]
+    },
+    {
+      "word": "κλείνω",
+      "translation": "to close, to shut; to switch off",
+      "transliteration": "klíno",
+      "partOfSpeech": "verb",
+      "definition": "To move something so it is no longer open; to turn off a device.",
+      "forms": {"past": "έκλεισα", "future": "θα κλείσω"},
+      "examples": [{"text": "Κλείσε την πόρτα, σε παρακαλώ.", "translation": "Close the door, please."}, {"text": "Κλείσε το φως.", "translation": "Switch off the light."}],
+      "notes": "Also to book: κλείνω τραπέζι = I book a table."
+    },
+    {
+      "word": "έρχομαι",
+      "translation": "to come",
+      "transliteration": "érchome",
+      "partOfSpeech": "verb",
+      "definition": "To move towards the speaker or towards a place.",
+      "forms": {"past": "ήρθα", "future": "θα έρθω"},
+      "examples": [{"text": "Έλα εδώ!", "translation": "Come here!"}],
+      "notes": "Command forms: έλα (to one person), ελάτε (to several, or polite)."
+    },
+    {
+      "word": "γυρίζω",
+      "translation": "to come back, to return; to turn",
+      "transliteration": "yirízo",
+      "partOfSpeech": "verb",
+      "definition": "To go back to a place; also to turn something around.",
+      "forms": {"past": "γύρισα", "future": "θα γυρίσω"},
+      "examples": [{"text": "Τι ώρα θα γυρίσεις;", "translation": "What time will you be back?"}],
+      "notes": "Also επιστρέφω (more formal) = to return."
+    },
+    {
+      "word": "συνεχίζω",
+      "translation": "to continue, to go on",
+      "transliteration": "sinechízo",
+      "partOfSpeech": "verb",
+      "definition": "To keep doing something without stopping.",
+      "forms": {"past": "συνέχισα", "future": "θα συνεχίσω"},
+      "examples": [{"text": "Συνέχισε, σε ακούω.", "translation": "Go on, I'm listening."}]
+    },
+    {
+      "word": "μαγειρεύω",
+      "translation": "to cook",
+      "transliteration": "mayirévo",
+      "partOfSpeech": "verb",
+      "definition": "To prepare food by heating it.",
+      "forms": {"past": "μαγείρεψα", "future": "θα μαγειρέψω"},
+      "examples": [{"text": "Η γιαγιά μου μαγειρεύει πολύ ωραία.", "translation": "My grandmother cooks really well."}]
+    },
+    {
+      "word": "μετράω",
+      "translation": "to count; to measure",
+      "transliteration": "metráo",
+      "partOfSpeech": "verb",
+      "definition": "To find the number or size of something.",
+      "forms": {"past": "μέτρησα", "future": "θα μετρήσω"},
+      "examples": [{"text": "Μέτρα από το ένα μέχρι το δέκα.", "translation": "Count from one to ten."}],
+      "notes": "Also μετρώ. Μετράει = it matters, it counts."
+    },
+    {
+      "word": "κλαίω",
+      "translation": "to cry",
+      "transliteration": "kléo",
+      "partOfSpeech": "verb",
+      "definition": "To have tears coming from your eyes.",
+      "forms": {"past": "έκλαψα", "future": "θα κλάψω"},
+      "examples": [{"text": "Γιατί κλαις;", "translation": "Why are you crying?"}]
+    },
+    {
+      "word": "κόβω",
+      "translation": "to cut",
+      "transliteration": "kóvo",
+      "partOfSpeech": "verb",
+      "definition": "To divide something with a knife or scissors.",
+      "forms": {"past": "έκοψα", "future": "θα κόψω"},
+      "examples": [{"text": "Κόψε το ψωμί σε φέτες.", "translation": "Cut the bread into slices."}]
+    },
+    {
+      "word": "αποφασίζω",
+      "translation": "to decide",
+      "transliteration": "apofasízo",
+      "partOfSpeech": "verb",
+      "definition": "To make a choice after thinking about it.",
+      "forms": {"past": "αποφάσισα", "future": "θα αποφασίσω"},
+      "examples": [{"text": "Αποφάσισα να μάθω ελληνικά.", "translation": "I decided to learn Greek."}]
+    },
+    {
+      "word": "κάνω",
+      "translation": "to do, to make",
+      "transliteration": "káno",
+      "partOfSpeech": "verb",
+      "definition": "To perform an action, or to create something.",
+      "forms": {"past": "έκανα", "future": "θα κάνω"},
+      "examples": [{"text": "Τι κάνεις;", "translation": "How are you? (literally \"What are you doing?\")"}, {"text": "Κάνω καφέ.", "translation": "I'm making coffee."}],
+      "notes": "Weather: κάνει κρύο / ζέστη = it's cold / hot."
+    },
+    {
+      "word": "οδηγώ",
+      "translation": "to drive",
+      "transliteration": "odhiyó",
+      "partOfSpeech": "verb",
+      "definition": "To control a car or other vehicle.",
+      "forms": {"past": "οδήγησα", "future": "θα οδηγήσω"},
+      "examples": [{"text": "Οδηγείς εσύ ή εγώ;", "translation": "Are you driving or am I?"}],
+      "notes": "Also οδηγάω."
+    },
+    {
+      "word": "τρώω",
+      "translation": "to eat",
+      "transliteration": "tróo",
+      "partOfSpeech": "verb",
+      "definition": "To put food in your mouth and swallow it.",
+      "forms": {"past": "έφαγα", "future": "θα φάω"},
+      "examples": [{"text": "Έχεις φάει;", "translation": "Have you eaten?"}],
+      "notes": "Irregular past: έφαγα."
+    },
+    {
+      "word": "μπαίνω",
+      "translation": "to enter, to go in, to get in",
+      "transliteration": "béno",
+      "partOfSpeech": "verb",
+      "definition": "To go into a place or a vehicle.",
+      "forms": {"past": "μπήκα", "future": "θα μπω"},
+      "examples": [{"text": "Μπες στο αυτοκίνητο!", "translation": "Get in the car!"}],
+      "notes": "Μπαίνω στο λεωφορείο = I get on the bus."
+    },
+    {
+      "word": "υπάρχω",
+      "translation": "to exist",
+      "transliteration": "ipárcho",
+      "partOfSpeech": "verb",
+      "definition": "To be real or present.",
+      "forms": {"past": "υπήρξα", "future": "θα υπάρξω"},
+      "examples": [{"text": "Υπάρχει φαρμακείο εδώ κοντά;", "translation": "Is there a pharmacy near here?"}],
+      "notes": "Υπάρχει / υπάρχουν = there is / there are. Υπήρχε = there was."
+    },
+    {
+      "word": "εξηγώ",
+      "translation": "to explain",
+      "transliteration": "eksiyó",
+      "partOfSpeech": "verb",
+      "definition": "To make something clear or easy to understand.",
+      "forms": {"past": "εξήγησα", "future": "θα εξηγήσω"},
+      "examples": [{"text": "Μπορείς να μου το εξηγήσεις;", "translation": "Can you explain it to me?"}],
+      "notes": "Also εξηγάω."
+    },
+    {
+      "word": "πέφτω",
+      "translation": "to fall",
+      "transliteration": "péfto",
+      "partOfSpeech": "verb",
+      "definition": "To drop down towards the ground.",
+      "forms": {"past": "έπεσα", "future": "θα πέσω"},
+      "examples": [{"text": "Πρόσεχε, θα πέσεις!", "translation": "Careful, you'll fall!"}]
+    },
+    {
+      "word": "αποκοιμιέμαι",
+      "translation": "to fall asleep",
+      "transliteration": "apokimiéme",
+      "partOfSpeech": "verb",
+      "definition": "To start sleeping.",
+      "forms": {"past": "αποκοιμήθηκα", "future": "θα αποκοιμηθώ"},
+      "examples": [{"text": "Αποκοιμήθηκα στον καναπέ.", "translation": "I fell asleep on the sofa."}],
+      "notes": "Also αποκοιμάμαι."
+    },
+    {
+      "word": "βρίσκω",
+      "translation": "to find",
+      "transliteration": "vrísko",
+      "partOfSpeech": "verb",
+      "definition": "To discover something you were looking for.",
+      "forms": {"past": "βρήκα", "future": "θα βρω"},
+      "examples": [{"text": "Δεν βρίσκω τα κλειδιά μου.", "translation": "I can't find my keys."}],
+      "notes": "Βρίσκομαι = to be (located): Πού βρίσκεται; = Where is it?"
+    },
+    {
+      "word": "τελειώνω",
+      "translation": "to finish, to end",
+      "transliteration": "telióno",
+      "partOfSpeech": "verb",
+      "definition": "To complete something, or to come to an end.",
+      "forms": {"past": "τελείωσα", "future": "θα τελειώσω"},
+      "examples": [{"text": "Τελείωσες τη δουλειά;", "translation": "Have you finished work?"}]
+    },
+    {
+      "word": "πετάω",
+      "translation": "to fly; to throw (away)",
+      "transliteration": "petáo",
+      "partOfSpeech": "verb",
+      "definition": "To move through the air; to send something through the air or into the bin.",
+      "forms": {"past": "πέταξα", "future": "θα πετάξω"},
+      "examples": [{"text": "Το πουλί πετάει.", "translation": "The bird is flying."}, {"text": "Μην το πετάξεις!", "translation": "Don't throw it away!"}],
+      "notes": "Also πετώ."
+    },
+    {
+      "word": "ακολουθώ",
+      "translation": "to follow",
+      "transliteration": "akolouthó",
+      "partOfSpeech": "verb",
+      "definition": "To go behind someone; to do what someone says.",
+      "forms": {"past": "ακολούθησα", "future": "θα ακολουθήσω"},
+      "examples": [{"text": "Ακολουθήστε με, παρακαλώ.", "translation": "Follow me, please."}]
+    },
+    {
+      "word": "ξεχνάω",
+      "translation": "to forget",
+      "transliteration": "ksechnáo",
+      "partOfSpeech": "verb",
+      "definition": "To not remember something.",
+      "forms": {"past": "ξέχασα", "future": "θα ξεχάσω"},
+      "examples": [{"text": "Ξέχασα το όνομά του.", "translation": "I forgot his name."}],
+      "notes": "Also ξεχνώ."
+    },
+    {
+      "word": "κατεβαίνω",
+      "translation": "to get off; to go down",
+      "transliteration": "katevéno",
+      "partOfSpeech": "verb",
+      "definition": "To leave a vehicle; to move to a lower place.",
+      "forms": {"past": "κατέβηκα", "future": "θα κατέβω"},
+      "examples": [{"text": "Κατεβαίνω στην επόμενη στάση.", "translation": "I'm getting off at the next stop."}],
+      "notes": "Opposite: ανεβαίνω = to go up, to get on."
+    },
+    {
+      "word": "βγαίνω",
+      "translation": "to go out, to get out",
+      "transliteration": "vyéno",
+      "partOfSpeech": "verb",
+      "definition": "To leave a place; to go out for fun.",
+      "forms": {"past": "βγήκα", "future": "θα βγω"},
+      "examples": [{"text": "Βγαίνουμε απόψε;", "translation": "Are we going out tonight?"}]
+    },
+    {
+      "word": "δίνω",
+      "translation": "to give",
+      "transliteration": "dhíno",
+      "partOfSpeech": "verb",
+      "definition": "To hand something to someone.",
+      "forms": {"past": "έδωσα", "future": "θα δώσω"},
+      "examples": [{"text": "Δώσε μου το αλάτι, σε παρακαλώ.", "translation": "Pass me the salt, please."}]
+    },
+    {
+      "word": "πηγαίνω",
+      "translation": "to go",
+      "transliteration": "piyéno",
+      "partOfSpeech": "verb",
+      "definition": "To move or travel to a place.",
+      "forms": {"past": "πήγα", "future": "θα πάω"},
+      "examples": [{"text": "Πάμε στην παραλία;", "translation": "Shall we go to the beach?"}],
+      "notes": "In everyday speech also πάω. Πάμε! = Let's go!"
+    },
+    {
+      "word": "έχω",
+      "translation": "to have",
+      "transliteration": "écho",
+      "partOfSpeech": "verb",
+      "definition": "To own or hold something.",
+      "forms": {"past": "είχα", "future": "θα έχω"},
+      "examples": [{"text": "Έχετε ελεύθερο δωμάτιο;", "translation": "Do you have a free room?"}]
+    },
+    {
+      "word": "ακούω",
+      "translation": "to hear; to listen",
+      "transliteration": "akoúo",
+      "partOfSpeech": "verb",
+      "definition": "To notice sounds with your ears; to pay attention to them.",
+      "forms": {"past": "άκουσα", "future": "θα ακούσω"},
+      "examples": [{"text": "Με ακούς;", "translation": "Can you hear me?"}, {"text": "Ακούω μουσική.", "translation": "I'm listening to music."}]
+    },
+    {
+      "word": "βοηθάω",
+      "translation": "to help",
+      "transliteration": "voitháo",
+      "partOfSpeech": "verb",
+      "definition": "To make it easier for someone to do something.",
+      "forms": {"past": "βοήθησα", "future": "θα βοηθήσω"},
+      "examples": [{"text": "Μπορώ να σας βοηθήσω;", "translation": "Can I help you?"}],
+      "notes": "Also βοηθώ. Βοήθεια! = Help!"
+    },
+    {
+      "word": "κρατάω",
+      "translation": "to hold; to keep",
+      "transliteration": "kratáo",
+      "partOfSpeech": "verb",
+      "definition": "To have something in your hands; to not give it away.",
+      "forms": {"past": "κράτησα", "future": "θα κρατήσω"},
+      "examples": [{"text": "Κράτα τα ρέστα.", "translation": "Keep the change."}, {"text": "Κράτα το χέρι μου.", "translation": "Hold my hand."}],
+      "notes": "Also κρατώ. Also to last: Πόσο κρατάει η ταινία; = How long is the film?"
+    },
+    {
+      "word": "διατηρώ",
+      "translation": "to keep, to maintain, to preserve",
+      "transliteration": "dhiatiró",
+      "partOfSpeech": "verb",
+      "definition": "To keep something in the same state.",
+      "forms": {"past": "διατήρησα", "future": "θα διατηρήσω"},
+      "examples": [{"text": "Διατηρήστε την πόλη καθαρή.", "translation": "Keep the city clean."}],
+      "notes": "Formal; in everyday speech κρατάω is more common."
+    },
+    {
+      "word": "ξέρω",
+      "translation": "to know",
+      "transliteration": "kséro",
+      "partOfSpeech": "verb",
+      "definition": "To have information about something, or a skill.",
+      "forms": {"past": "ήξερα", "future": "θα ξέρω"},
+      "examples": [{"text": "Ξέρεις πού είναι ο σταθμός;", "translation": "Do you know where the station is?"}],
+      "notes": "To know a person is γνωρίζω. Ξέρω has no simple past; ήξερα = I knew."
+    },
+    {
+      "word": "γελώ",
+      "translation": "to laugh",
+      "transliteration": "yeló",
+      "partOfSpeech": "verb",
+      "definition": "To make sounds that show you think something is funny.",
+      "forms": {"past": "γέλασα", "future": "θα γελάσω"},
+      "examples": [{"text": "Γιατί γελάς;", "translation": "Why are you laughing?"}],
+      "notes": "Also γελάω."
+    },
+    {
+      "word": "μαθαίνω",
+      "translation": "to learn; to find out",
+      "transliteration": "mathéno",
+      "partOfSpeech": "verb",
+      "definition": "To get knowledge or a skill; to hear news.",
+      "forms": {"past": "έμαθα", "future": "θα μάθω"},
+      "examples": [{"text": "Μαθαίνω ελληνικά.", "translation": "I'm learning Greek."}]
+    },
+    {
+      "word": "φεύγω",
+      "translation": "to leave, to go away",
+      "transliteration": "févgho",
+      "partOfSpeech": "verb",
+      "definition": "To go away from a place.",
+      "forms": {"past": "έφυγα", "future": "θα φύγω"},
+      "examples": [{"text": "Πρέπει να φύγω τώρα.", "translation": "I have to leave now."}]
+    },
+    {
+      "word": "ζω",
+      "translation": "to live, to be alive",
+      "transliteration": "zo",
+      "partOfSpeech": "verb",
+      "definition": "To be alive; to spend your life somewhere.",
+      "forms": {"past": "έζησα", "future": "θα ζήσω"},
+      "examples": [{"text": "Ζω στην Αθήνα εδώ και δύο χρόνια.", "translation": "I've been living in Athens for two years."}],
+      "notes": "Present: ζω, ζεις, ζει, ζούμε, ζείτε, ζουν. For where you live, μένω is more common: Πού μένεις;"
+    },
+    {
+      "word": "μοιάζω",
+      "translation": "to look like, to resemble",
+      "transliteration": "miázo",
+      "partOfSpeech": "verb",
+      "definition": "To be similar to someone or something.",
+      "forms": {"past": "έμοιασα", "future": "θα μοιάσω"},
+      "examples": [{"text": "Μοιάζεις στη μητέρα σου.", "translation": "You look like your mother."}]
+    },
+    {
+      "word": "κοιτάζω",
+      "translation": "to look (at)",
+      "transliteration": "kitázo",
+      "partOfSpeech": "verb",
+      "definition": "To turn your eyes towards something.",
+      "forms": {"past": "κοίταξα", "future": "θα κοιτάξω"},
+      "examples": [{"text": "Κοίτα αυτό!", "translation": "Look at this!"}],
+      "notes": "Also κοιτάω."
+    },
+    {
+      "word": "χάνω",
+      "translation": "to lose; to miss",
+      "transliteration": "cháno",
+      "partOfSpeech": "verb",
+      "definition": "To no longer have something; to be too late for something.",
+      "forms": {"past": "έχασα", "future": "θα χάσω"},
+      "examples": [{"text": "Έχασα το λεωφορείο.", "translation": "I missed the bus."}],
+      "notes": "Χάθηκα = I got lost."
+    },
+    {
+      "word": "αγαπάω",
+      "translation": "to love",
+      "transliteration": "aghapáo",
+      "partOfSpeech": "verb",
+      "definition": "To feel deep affection for someone or something.",
+      "forms": {"past": "αγάπησα", "future": "θα αγαπήσω"},
+      "examples": [{"text": "Σ' αγαπώ.", "translation": "I love you."}],
+      "notes": "Also αγαπώ."
+    },
+    {
+      "word": "συναντάω",
+      "translation": "to meet",
+      "transliteration": "sinandáo",
+      "partOfSpeech": "verb",
+      "definition": "To come together with someone.",
+      "forms": {"past": "συνάντησα", "future": "θα συναντήσω"},
+      "examples": [{"text": "Θα σε συναντήσω στην πλατεία.", "translation": "I'll meet you in the square."}],
+      "notes": "Also συναντώ. To meet someone for the first time is γνωρίζω: Χάρηκα που σε γνώρισα = Nice to meet you."
+    },
+    {
+      "word": "χρειάζομαι",
+      "translation": "to need",
+      "transliteration": "chriázome",
+      "partOfSpeech": "verb",
+      "definition": "To have to have something.",
+      "forms": {"past": "χρειάστηκα", "future": "θα χρειαστώ"},
+      "examples": [{"text": "Χρειάζομαι βοήθεια.", "translation": "I need help."}],
+      "notes": "Χρειάζεται = it's necessary."
+    },
+    {
+      "word": "ανοίγω",
+      "translation": "to open",
+      "transliteration": "anígho",
+      "partOfSpeech": "verb",
+      "definition": "To move something so it is no longer closed.",
+      "forms": {"past": "άνοιξα", "future": "θα ανοίξω"},
+      "examples": [{"text": "Τι ώρα ανοίγει το μουσείο;", "translation": "What time does the museum open?"}],
+      "notes": "Also to turn on a TV or radio: ανοίγω την τηλεόραση."
+    },
+    {
+      "word": "πληρώνω",
+      "translation": "to pay",
+      "transliteration": "pliróno",
+      "partOfSpeech": "verb",
+      "definition": "To give money for something.",
+      "forms": {"past": "πλήρωσα", "future": "θα πληρώσω"},
+      "examples": [{"text": "Μπορώ να πληρώσω με κάρτα;", "translation": "Can I pay by card?"}]
+    },
+    {
+      "word": "παίζω",
+      "translation": "to play",
+      "transliteration": "pézo",
+      "partOfSpeech": "verb",
+      "definition": "To do something for fun; to play a game or an instrument.",
+      "forms": {"past": "έπαιξα", "future": "θα παίξω"},
+      "examples": [{"text": "Τα παιδιά παίζουν ποδόσφαιρο.", "translation": "The children are playing football."}],
+      "notes": "Παίζω κιθάρα = I play the guitar."
+    },
+    {
+      "word": "ετοιμάζω",
+      "translation": "to prepare",
+      "transliteration": "etimázo",
+      "partOfSpeech": "verb",
+      "definition": "To make something ready.",
+      "forms": {"past": "ετοίμασα", "future": "θα ετοιμάσω"},
+      "examples": [{"text": "Ετοιμάζω το πρωινό.", "translation": "I'm preparing breakfast."}],
+      "notes": "Also προετοιμάζω (more formal). Ετοιμάζομαι = I'm getting ready."
+    },
+    {
+      "word": "αποτρέπω",
+      "translation": "to prevent; to talk out of",
+      "transliteration": "apotrépo",
+      "partOfSpeech": "verb",
+      "definition": "To stop something from happening, or someone from doing something.",
+      "forms": {"past": "απέτρεψα", "future": "θα αποτρέψω"},
+      "examples": [{"text": "Προσπάθησα να τον αποτρέψω.", "translation": "I tried to talk him out of it."}],
+      "notes": "Also εμποδίζω = to prevent, to block."
+    },
+    {
+      "word": "βάζω",
+      "translation": "to put",
+      "transliteration": "vázo",
+      "partOfSpeech": "verb",
+      "definition": "To move something into a place.",
+      "forms": {"past": "έβαλα", "future": "θα βάλω"},
+      "examples": [{"text": "Πού να το βάλω;", "translation": "Where should I put it?"}]
+    },
+    {
+      "word": "διαβάζω",
+      "translation": "to read; to study",
+      "transliteration": "dhiavázo",
+      "partOfSpeech": "verb",
+      "definition": "To look at written words and understand them.",
+      "forms": {"past": "διάβασα", "future": "θα διαβάσω"},
+      "examples": [{"text": "Διαβάζω εφημερίδα κάθε πρωί.", "translation": "I read the newspaper every morning."}],
+      "notes": "Also to study: Διαβάζω για τις εξετάσεις = I'm studying for the exams."
+    },
+    {
+      "word": "θυμάμαι",
+      "translation": "to remember, to recall",
+      "transliteration": "thimáme",
+      "partOfSpeech": "verb",
+      "definition": "To keep something in your mind, or bring it back to mind.",
+      "forms": {"past": "θυμήθηκα", "future": "θα θυμηθώ"},
+      "examples": [{"text": "Δεν θυμάμαι πού το άφησα.", "translation": "I don't remember where I left it."}]
+    },
+    {
+      "word": "λαμβάνω",
+      "translation": "to receive",
+      "transliteration": "lamváno",
+      "partOfSpeech": "verb",
+      "definition": "To get something that is given or sent to you.",
+      "forms": {"past": "έλαβα", "future": "θα λάβω"},
+      "examples": [{"text": "Έλαβα το email σας.", "translation": "I received your email."}],
+      "notes": "Formal; in everyday speech παίρνω: Πήρα το μήνυμά σου = I got your message."
+    },
+    {
+      "word": "αναγνωρίζω",
+      "translation": "to recognize",
+      "transliteration": "anaghnorízo",
+      "partOfSpeech": "verb",
+      "definition": "To know someone or something because you have seen it before.",
+      "forms": {"past": "αναγνώρισα", "future": "θα αναγνωρίσω"},
+      "examples": [{"text": "Δεν σε αναγνώρισα!", "translation": "I didn't recognize you!"}]
+    },
+    {
+      "word": "αρνούμαι",
+      "translation": "to refuse; to deny",
+      "transliteration": "arnoúme",
+      "partOfSpeech": "verb",
+      "definition": "To say no to something.",
+      "forms": {"past": "αρνήθηκα", "future": "θα αρνηθώ"},
+      "examples": [{"text": "Αρνήθηκε να απαντήσει.", "translation": "He refused to answer."}],
+      "notes": "Also αρνιέμαι."
+    },
+    {
+      "word": "επαναλαμβάνω",
+      "translation": "to repeat",
+      "transliteration": "epanalamváno",
+      "partOfSpeech": "verb",
+      "definition": "To say or do something again.",
+      "forms": {"past": "επανέλαβα", "future": "θα επαναλάβω"},
+      "examples": [{"text": "Μπορείτε να το επαναλάβετε, παρακαλώ;", "translation": "Could you repeat that, please?"}]
+    },
+    {
+      "word": "ξεκουράζομαι",
+      "translation": "to rest",
+      "transliteration": "ksekourázome",
+      "partOfSpeech": "verb",
+      "definition": "To stop working or moving so you can relax.",
+      "forms": {"past": "ξεκουράστηκα", "future": "θα ξεκουραστώ"},
+      "examples": [{"text": "Είμαι κουρασμένος, θέλω να ξεκουραστώ.", "translation": "I'm tired, I want to rest."}]
+    },
+    {
+      "word": "τρέχω",
+      "translation": "to run",
+      "transliteration": "trécho",
+      "partOfSpeech": "verb",
+      "definition": "To move fast on your feet.",
+      "forms": {"past": "έτρεξα", "future": "θα τρέξω"},
+      "examples": [{"text": "Τρέχω κάθε πρωί στο πάρκο.", "translation": "I run in the park every morning."}],
+      "notes": "Τι τρέχει; = What's going on?"
+    },
+    {
+      "word": "λέω",
+      "translation": "to say, to tell",
+      "transliteration": "léo",
+      "partOfSpeech": "verb",
+      "definition": "To express something in words.",
+      "forms": {"past": "είπα", "future": "θα πω"},
+      "examples": [{"text": "Τι είπες;", "translation": "What did you say?"}],
+      "notes": "Irregular. Present: λέω, λες, λέει, λέμε, λέτε, λένε. Πώς σε λένε; = What's your name?"
+    },
+    {
+      "word": "ψάχνω",
+      "translation": "to search, to look for",
+      "transliteration": "psáchno",
+      "partOfSpeech": "verb",
+      "definition": "To try to find something.",
+      "forms": {"past": "έψαξα", "future": "θα ψάξω"},
+      "examples": [{"text": "Ψάχνω τα γυαλιά μου.", "translation": "I'm looking for my glasses."}],
+      "notes": "Also αναζητώ (formal)."
+    },
+    {
+      "word": "βλέπω",
+      "translation": "to see; to watch",
+      "transliteration": "vlépo",
+      "partOfSpeech": "verb",
+      "definition": "To notice with your eyes; to watch.",
+      "forms": {"past": "είδα", "future": "θα δω"},
+      "examples": [{"text": "Βλέπεις εκείνο το σπίτι;", "translation": "Do you see that house?"}],
+      "notes": "Irregular: past είδα, future θα δω."
+    },
+    {
+      "word": "πουλάω",
+      "translation": "to sell",
+      "transliteration": "pouláo",
+      "partOfSpeech": "verb",
+      "definition": "To give something in exchange for money.",
+      "forms": {"past": "πούλησα", "future": "θα πουλήσω"},
+      "examples": [{"text": "Εδώ πουλάνε φρέσκα ψάρια.", "translation": "They sell fresh fish here."}],
+      "notes": "Also πουλώ."
+    },
+    {
+      "word": "στέλνω",
+      "translation": "to send",
+      "transliteration": "stélno",
+      "partOfSpeech": "verb",
+      "definition": "To make something go to another person or place.",
+      "forms": {"past": "έστειλα", "future": "θα στείλω"},
+      "examples": [{"text": "Θα σου στείλω μήνυμα.", "translation": "I'll send you a message."}]
+    },
+    {
+      "word": "πυροβολώ",
+      "translation": "to shoot (a gun)",
+      "transliteration": "pirovoló",
+      "partOfSpeech": "verb",
+      "definition": "To fire a gun.",
+      "forms": {"past": "πυροβόλησα", "future": "θα πυροβολήσω"},
+      "examples": [{"text": "Μην πυροβολείτε!", "translation": "Don't shoot!"}]
+    },
+    {
+      "word": "δείχνω",
+      "translation": "to show; to point",
+      "transliteration": "dhíchno",
+      "partOfSpeech": "verb",
+      "definition": "To let someone see something.",
+      "forms": {"past": "έδειξα", "future": "θα δείξω"},
+      "examples": [{"text": "Μπορείτε να μου δείξετε στον χάρτη;", "translation": "Can you show me on the map?"}]
+    },
+    {
+      "word": "τραγουδάω",
+      "translation": "to sing",
+      "transliteration": "traghoudháo",
+      "partOfSpeech": "verb",
+      "definition": "To make music with your voice.",
+      "forms": {"past": "τραγούδησα", "future": "θα τραγουδήσω"},
+      "examples": [{"text": "Της αρέσει να τραγουδάει.", "translation": "She likes to sing."}],
+      "notes": "Also τραγουδώ. Το τραγούδι = the song."
+    },
+    {
+      "word": "κάθομαι",
+      "translation": "to sit (down)",
+      "transliteration": "káthome",
+      "partOfSpeech": "verb",
+      "definition": "To rest your body on a seat.",
+      "forms": {"past": "κάθισα / έκατσα", "future": "θα καθίσω / θα κάτσω"},
+      "examples": [{"text": "Καθίστε, παρακαλώ.", "translation": "Please sit down."}]
+    },
+    {
+      "word": "κοιμάμαι",
+      "translation": "to sleep",
+      "transliteration": "kimáme",
+      "partOfSpeech": "verb",
+      "definition": "To rest with your eyes closed, unconscious.",
+      "forms": {"past": "κοιμήθηκα", "future": "θα κοιμηθώ"},
+      "examples": [{"text": "Κοιμήθηκες καλά;", "translation": "Did you sleep well?"}]
+    },
+    {
+      "word": "ξεκινάω",
+      "translation": "to start, to begin; to set off",
+      "transliteration": "ksekináo",
+      "partOfSpeech": "verb",
+      "definition": "To begin doing something; to begin a journey.",
+      "forms": {"past": "ξεκίνησα", "future": "θα ξεκινήσω"},
+      "examples": [{"text": "Η ταινία ξεκινάει στις εννιά.", "translation": "The film starts at nine."}],
+      "notes": "Also ξεκινώ. Αρχίζω = to begin."
+    },
+    {
+      "word": "μένω",
+      "translation": "to stay; to live (reside)",
+      "transliteration": "méno",
+      "partOfSpeech": "verb",
+      "definition": "To remain in a place; to have your home somewhere.",
+      "forms": {"past": "έμεινα", "future": "θα μείνω"},
+      "examples": [{"text": "Πόσες μέρες θα μείνετε;", "translation": "How many days will you stay?"}],
+      "notes": "Πού μένεις; = Where do you live?"
+    },
+    {
+      "word": "σταματάω",
+      "translation": "to stop",
+      "transliteration": "stamatáo",
+      "partOfSpeech": "verb",
+      "definition": "To no longer move or do something.",
+      "forms": {"past": "σταμάτησα", "future": "θα σταματήσω"},
+      "examples": [{"text": "Σταματάει εδώ το λεωφορείο;", "translation": "Does the bus stop here?"}],
+      "notes": "Also σταματώ. Σταμάτα! = Stop!"
+    },
+    {
+      "word": "πετυχαίνω",
+      "translation": "to succeed; to hit (a target)",
+      "transliteration": "petichéno",
+      "partOfSpeech": "verb",
+      "definition": "To manage to do what you tried to do.",
+      "forms": {"past": "πέτυχα", "future": "θα πετύχω"},
+      "examples": [{"text": "Πέτυχα στις εξετάσεις!", "translation": "I passed my exams!"}],
+      "notes": "Also επιτυγχάνω (formal). Καλή επιτυχία! = Good luck! (for an exam, a new job…)"
+    },
+    {
+      "word": "παίρνω",
+      "translation": "to take; to get",
+      "transliteration": "pérno",
+      "partOfSpeech": "verb",
+      "definition": "To get hold of something; to receive.",
+      "forms": {"past": "πήρα", "future": "θα πάρω"},
+      "examples": [{"text": "Θα πάρω ένα ταξί.", "translation": "I'll take a taxi."}],
+      "notes": "Παίρνω τηλέφωνο = to phone someone."
+    },
+    {
+      "word": "μιλάω",
+      "translation": "to talk, to speak",
+      "transliteration": "miláo",
+      "partOfSpeech": "verb",
+      "definition": "To say words; to have a conversation.",
+      "forms": {"past": "μίλησα", "future": "θα μιλήσω"},
+      "examples": [{"text": "Μπορούμε να μιλήσουμε αύριο;", "translation": "Can we talk tomorrow?"}],
+      "notes": "Also μιλώ."
+    },
+    {
+      "word": "δοκιμάζω",
+      "translation": "to try; to taste; to try on",
+      "transliteration": "dhokimázo",
+      "partOfSpeech": "verb",
+      "definition": "To test something to see what it is like.",
+      "forms": {"past": "δοκίμασα", "future": "θα δοκιμάσω"},
+      "examples": [{"text": "Δοκίμασε αυτό το γλυκό!", "translation": "Try this dessert!"}, {"text": "Μπορώ να το δοκιμάσω;", "translation": "Can I try it on?"}]
+    },
+    {
+      "word": "σκέφτομαι",
+      "translation": "to think",
+      "transliteration": "skéftome",
+      "partOfSpeech": "verb",
+      "definition": "To use your mind to consider something.",
+      "forms": {"past": "σκέφτηκα", "future": "θα σκεφτώ"},
+      "examples": [{"text": "Τι σκέφτεσαι;", "translation": "What are you thinking about?"}]
+    },
+    {
+      "word": "αγγίζω",
+      "translation": "to touch",
+      "transliteration": "angízo",
+      "partOfSpeech": "verb",
+      "definition": "To put your hand or finger on something.",
+      "forms": {"past": "άγγιξα", "future": "θα αγγίξω"},
+      "examples": [{"text": "Μην αγγίζεις τίποτα!", "translation": "Don't touch anything!"}]
+    },
+    {
+      "word": "στρίβω",
+      "translation": "to turn (left or right)",
+      "transliteration": "strívo",
+      "partOfSpeech": "verb",
+      "definition": "To change direction.",
+      "forms": {"past": "έστριψα", "future": "θα στρίψω"},
+      "examples": [{"text": "Στρίψτε δεξιά στο φανάρι.", "translation": "Turn right at the traffic light."}],
+      "notes": "Αριστερά = left, δεξιά = right."
+    },
+    {
+      "word": "ανάβω",
+      "translation": "to turn on, to switch on; to light",
+      "transliteration": "anávo",
+      "partOfSpeech": "verb",
+      "definition": "To make a light or fire start.",
+      "forms": {"past": "άναψα", "future": "θα ανάψω"},
+      "examples": [{"text": "Άναψε το φως, σε παρακαλώ.", "translation": "Turn on the light, please."}],
+      "notes": "For a TV or radio, ανοίγω is used. The formal ενεργοποιώ = to activate, to enable."
+    },
+    {
+      "word": "καταλαβαίνω",
+      "translation": "to understand",
+      "transliteration": "katalavéno",
+      "partOfSpeech": "verb",
+      "definition": "To know what something means.",
+      "forms": {"past": "κατάλαβα", "future": "θα καταλάβω"},
+      "examples": [{"text": "Κατάλαβες;", "translation": "Did you understand? / Got it?"}]
+    },
+    {
+      "word": "χρησιμοποιώ",
+      "translation": "to use",
+      "transliteration": "chrisimopió",
+      "partOfSpeech": "verb",
+      "definition": "To do something with a tool, object or method.",
+      "forms": {"past": "χρησιμοποίησα", "future": "θα χρησιμοποιήσω"},
+      "examples": [{"text": "Μπορώ να χρησιμοποιήσω το τηλέφωνό σου;", "translation": "Can I use your phone?"}]
+    },
+    {
+      "word": "περιμένω",
+      "translation": "to wait (for); to expect",
+      "transliteration": "periméno",
+      "partOfSpeech": "verb",
+      "definition": "To stay until someone comes or something happens.",
+      "forms": {"past": "περίμενα", "future": "θα περιμένω"},
+      "examples": [{"text": "Περίμενε λίγο!", "translation": "Wait a moment!"}]
+    },
+    {
+      "word": "ξυπνάω",
+      "translation": "to wake up",
+      "transliteration": "ksipnáo",
+      "partOfSpeech": "verb",
+      "definition": "To stop sleeping.",
+      "forms": {"past": "ξύπνησα", "future": "θα ξυπνήσω"},
+      "examples": [{"text": "Τι ώρα ξύπνησες;", "translation": "What time did you wake up?"}],
+      "notes": "Also ξυπνώ."
+    },
+    {
+      "word": "περπατάω",
+      "translation": "to walk",
+      "transliteration": "perpatáo",
+      "partOfSpeech": "verb",
+      "definition": "To move on foot.",
+      "forms": {"past": "περπάτησα", "future": "θα περπατήσω"},
+      "examples": [{"text": "Μου αρέσει να περπατάω δίπλα στη θάλασσα.", "translation": "I like walking by the sea."}],
+      "notes": "Also περπατώ."
+    },
+    {
+      "word": "θέλω",
+      "translation": "to want",
+      "transliteration": "thélo",
+      "partOfSpeech": "verb",
+      "definition": "To wish for or desire something.",
+      "forms": {"past": "ήθελα", "future": "θα θέλω"},
+      "examples": [{"text": "Τι θέλεις να κάνουμε;", "translation": "What do you want to do?"}],
+      "notes": "Θα ήθελα… = I would like…"
+    },
+    {
+      "word": "πλένω",
+      "translation": "to wash; to wash up",
+      "transliteration": "pléno",
+      "partOfSpeech": "verb",
+      "definition": "To clean something with water.",
+      "forms": {"past": "έπλυνα", "future": "θα πλύνω"},
+      "examples": [{"text": "Ποιος θα πλύνει τα πιάτα;", "translation": "Who's going to wash the dishes?"}],
+      "notes": "Πλένομαι = to wash (yourself)."
+    },
+    {
+      "word": "φοράω",
+      "translation": "to wear",
+      "transliteration": "foráo",
+      "partOfSpeech": "verb",
+      "definition": "To have clothes or jewellery on your body.",
+      "forms": {"past": "φόρεσα", "future": "θα φορέσω"},
+      "examples": [{"text": "Τι θα φορέσεις απόψε;", "translation": "What will you wear tonight?"}],
+      "notes": "Also φορώ."
+    },
+    {
+      "word": "κερδίζω",
+      "translation": "to win; to earn",
+      "transliteration": "kerdhízo",
+      "partOfSpeech": "verb",
+      "definition": "To come first in a game; to get money for work.",
+      "forms": {"past": "κέρδισα", "future": "θα κερδίσω"},
+      "examples": [{"text": "Ποιος κέρδισε;", "translation": "Who won?"}]
+    },
+    {
+      "word": "δουλεύω",
+      "translation": "to work",
+      "transliteration": "dhoulévo",
+      "partOfSpeech": "verb",
+      "definition": "To do a job.",
+      "forms": {"past": "δούλεψα", "future": "θα δουλέψω"},
+      "examples": [{"text": "Πού δουλεύεις;", "translation": "Where do you work?"}]
+    },
+    {
+      "word": "γράφω",
+      "translation": "to write",
+      "transliteration": "ghráfo",
+      "partOfSpeech": "verb",
+      "definition": "To put words on paper or a screen.",
+      "forms": {"past": "έγραψα", "future": "θα γράψω"},
+      "examples": [{"text": "Γράψε μου όταν φτάσεις.", "translation": "Text me when you arrive."}]
+    }
+  ]
+}
