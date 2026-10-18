@@ -12,6 +12,8 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      // Registered in src/lib/updates.ts, which also reloads into new versions.
+      injectRegister: false,
       includeAssets: ['icon.svg', 'apple-touch-icon.png'],
       manifest: {
         name: 'Flashcards',
@@ -30,6 +32,9 @@ export default defineConfig({
         ],
       },
       workbox: {
+        // A new version takes over as soon as it's downloaded; updates.ts then reloads into it.
+        skipWaiting: true,
+        clientsClaim: true,
         globPatterns: ['**/*.{js,css,html,svg,png,ico,json}'],
         runtimeCaching: [
           {

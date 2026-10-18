@@ -86,6 +86,8 @@ Only `word` and `translation` are required.
 | `id` | Optional. Progress is tracked by `id`, or by `word` when there's no `id`. Add an `id` if you plan to edit a word's spelling, or if two cards share the same word. |
 | `audio` | Optional recording, e.g. `"audio/spiti.mp3"` for a file in `public/audio/`. If set, it's played instead of the built-in voice. |
 
+After the deploy finishes, the app picks up the new version by itself a moment after you open it, or when you switch back to it on your phone. If you're in the middle of a round, it waits until you leave the round.
+
 Every deck is checked when the site builds (`npm test`). A deck with mistakes, such as missing fields or duplicate cards, stops the deploy, and the live site stays as it was. The failed run in the repo's **Actions** tab says what's wrong.
 
 ## Pronunciation
