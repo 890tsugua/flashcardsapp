@@ -1,0 +1,108 @@
+{
+  "name": "Greek Numbers",
+  "description": "Counting from one to ten, plus twenty, a hundred and a thousand.",
+  "language": "el-GR",
+  "cards": [
+    {
+      "word": "ένα",
+      "translation": "one (1)",
+      "transliteration": "éna",
+      "partOfSpeech": "numeral",
+      "forms": { "masculine": "ένας", "feminine": "μία / μια", "neuter": "ένα" },
+      "examples": [{ "text": "Ένας καφές και ένα νερό, παρακαλώ.", "translation": "One coffee and one water, please." }],
+      "notes": "The same words are the indefinite article: ένας, μια, ένα = a, an."
+    },
+    {
+      "word": "δύο",
+      "translation": "two (2)",
+      "transliteration": "dhío",
+      "partOfSpeech": "numeral",
+      "examples": [{ "text": "Έχω δύο γάτες.", "translation": "I have two cats." }],
+      "notes": "Also written δυο."
+    },
+    {
+      "word": "τρία",
+      "translation": "three (3)",
+      "transliteration": "tría",
+      "partOfSpeech": "numeral",
+      "forms": { "masculine / feminine": "τρεις", "neuter": "τρία" },
+      "examples": [{ "text": "Μένω εδώ τρία χρόνια.", "translation": "I've lived here for three years." }]
+    },
+    {
+      "word": "τέσσερα",
+      "translation": "four (4)",
+      "transliteration": "tésera",
+      "partOfSpeech": "numeral",
+      "forms": { "masculine / feminine": "τέσσερις", "neuter": "τέσσερα" },
+      "examples": [{ "text": "Έχουμε τέσσερα παιδιά.", "translation": "We have four children." }]
+    },
+    {
+      "word": "πέντε",
+      "translation": "five (5)",
+      "transliteration": "pénde",
+      "partOfSpeech": "numeral",
+      "examples": [{ "text": "Έρχομαι σε πέντε λεπτά.", "translation": "I'm coming in five minutes." }]
+    },
+    {
+      "word": "έξι",
+      "translation": "six (6)",
+      "transliteration": "éksi",
+      "partOfSpeech": "numeral",
+      "examples": [{ "text": "Ξυπνάω στις έξι.", "translation": "I wake up at six." }]
+    },
+    {
+      "word": "εφτά",
+      "translation": "seven (7)",
+      "transliteration": "eftá",
+      "partOfSpeech": "numeral",
+      "examples": [{ "text": "Η εβδομάδα έχει εφτά μέρες.", "translation": "A week has seven days." }],
+      "notes": "Also επτά (more formal)."
+    },
+    {
+      "word": "οχτώ",
+      "translation": "eight (8)",
+      "transliteration": "ochtó",
+      "partOfSpeech": "numeral",
+      "examples": [{ "text": "Δουλεύω οχτώ ώρες τη μέρα.", "translation": "I work eight hours a day." }],
+      "notes": "Also οκτώ (more formal)."
+    },
+    {
+      "word": "εννιά",
+      "translation": "nine (9)",
+      "transliteration": "enyá",
+      "partOfSpeech": "numeral",
+      "examples": [{ "text": "Το μαγαζί ανοίγει στις εννιά.", "translation": "The shop opens at nine." }],
+      "notes": "Also εννέα (more formal)."
+    },
+    {
+      "word": "δέκα",
+      "translation": "ten (10)",
+      "transliteration": "dhéka",
+      "partOfSpeech": "numeral",
+      "examples": [{ "text": "Κοστίζει δέκα ευρώ.", "translation": "It costs ten euros." }]
+    },
+    {
+      "word": "είκοσι",
+      "translation": "twenty (20)",
+      "transliteration": "íkosi",
+      "partOfSpeech": "numeral",
+      "examples": [{ "text": "Είμαι είκοσι χρονών.", "translation": "I'm twenty years old." }]
+    },
+    {
+      "word": "εκατό",
+      "translation": "one hundred (100)",
+      "transliteration": "ekató",
+      "partOfSpeech": "numeral",
+      "examples": [{ "text": "Είμαι εκατό τοις εκατό σίγουρος.", "translation": "I'm one hundred percent sure." }],
+      "notes": "From 101 to 199 it becomes εκατόν: εκατόν ένα = 101."
+    },
+    {
+      "word": "χίλια",
+      "translation": "one thousand (1000)",
+      "transliteration": "chília",
+      "partOfSpeech": "numeral",
+      "forms": { "masculine": "χίλιοι", "feminine": "χίλιες", "neuter": "χίλια" },
+      "examples": [{ "text": "Χίλια ευχαριστώ!", "translation": "A thousand thanks!" }]
+    }
+  ]
+}
