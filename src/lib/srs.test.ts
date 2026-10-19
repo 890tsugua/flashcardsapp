@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import type { Deck } from './deck'
 import { rankCounts, rankOf } from './rank'
-import { applyAnswer, deckStatus, isRoundOver, planRound, shuffle, startRound } from './round'
+import { applyAnswer, deckStatus, isRoundOver, pickReversed, planRound, shuffle, startRound } from './round'
 import { previewOutcomes, Rating, review, State, type CardProgress } from './srs'
 import { emptyProgress, type DeckProgress } from './storage'
 import { DAY_MS, dayKey, formatDue, formatInterval, MINUTE_MS } from './time'
@@ -133,6 +133,23 @@ describe('planning a round', () => {
     const shuffled = shuffle(items)
     expect(shuffled).toHaveLength(50)
     expect([...shuffled].sort((a, b) => a - b)).toEqual(items)
+  })
+})
+
+describe('card direction', () => {
+  const ids = ['a', 'b', 'c', 'd']
+
+  it('shows every card word-first or translation-first as set', () => {
+    expect(pickReversed(ids, 'normal')).toEqual(new Set())
+    expect(pickReversed(ids, 'inverse')).toEqual(new Set(ids))
+  })
+
+  it('mixes directions when set to both ways', () => {
+    const alternating = (() => {
+      let i = 0
+      return () => (i++ % 2 === 0 ? 0.2 : 0.8)
+    })()
+    expect(pickReversed(ids, 'both', alternating)).toEqual(new Set(['a', 'c']))
   })
 })
 

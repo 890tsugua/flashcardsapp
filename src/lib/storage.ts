@@ -16,6 +16,9 @@ export interface DeckProgress {
 
 export type Theme = 'system' | 'light' | 'dark'
 
+/** normal: word first. inverse: translation first. both: each card goes one way or the other at random. */
+export type Direction = 'normal' | 'inverse' | 'both'
+
 export interface Settings {
   newPerDay: number
   defaultRoundSize: number
@@ -24,6 +27,7 @@ export interface Settings {
   speechRate: number
   /** Chosen voice per language prefix, e.g. { el: "com.apple.voice.compact.el-GR.Melina" } */
   voiceByLang: Record<string, string>
+  direction: Direction
   theme: Theme
 }
 
@@ -34,6 +38,7 @@ export const DEFAULT_SETTINGS: Settings = {
   autoplay: true,
   speechRate: 0.9,
   voiceByLang: {},
+  direction: 'normal',
   theme: 'system',
 }
 
@@ -113,6 +118,7 @@ export function parseSettings(raw: unknown): Settings {
     autoplay: typeof r.autoplay === 'boolean' ? r.autoplay : DEFAULT_SETTINGS.autoplay,
     speechRate: num(r.speechRate, 0.5, 1.5, DEFAULT_SETTINGS.speechRate),
     voiceByLang: record(r.voiceByLang, (x): x is string => typeof x === 'string'),
+    direction: r.direction === 'inverse' || r.direction === 'both' ? r.direction : 'normal',
     theme: r.theme === 'light' || r.theme === 'dark' ? r.theme : 'system',
   }
 }

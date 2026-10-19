@@ -963,6 +963,14 @@ input[type='checkbox'] {
   color: var(--muted);
 }
 
+/* The translation shown first on a translation-first card */
+.word.prompt {
+  font-family: var(--font-ui);
+  font-size: clamp(1.7rem, 6vw, 2.5rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
 .reveal-hint {
   color: var(--muted);
   font-size: 0.9rem;

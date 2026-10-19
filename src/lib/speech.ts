@@ -11,6 +11,15 @@ export function langPrefix(lang: string): string {
   return lang.split(/[-_]/)[0].toLowerCase()
 }
 
+/** "el-GR" -> "Greek" */
+export function languageName(lang: string): string {
+  try {
+    return new Intl.DisplayNames(['en'], { type: 'language' }).of(langPrefix(lang)) ?? lang
+  } catch {
+    return lang
+  }
+}
+
 export function voicesFor(voices: SpeechSynthesisVoice[], lang: string): SpeechSynthesisVoice[] {
   const prefix = langPrefix(lang)
   return voices

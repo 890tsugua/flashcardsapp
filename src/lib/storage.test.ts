@@ -38,6 +38,14 @@ describe('storage', () => {
     expect(loadAllProgress(store)).toEqual({ d: { cards: {}, days: {} } })
   })
 
+  it('keeps a valid card direction and defaults anything else to word-first', () => {
+    const store = new MemoryStore()
+    saveSettings(store, { ...DEFAULT_SETTINGS, direction: 'both' })
+    expect(loadSettings(store).direction).toBe('both')
+    store.setItem('flashcards:settings', JSON.stringify({ direction: 'sideways' }))
+    expect(loadSettings(store).direction).toBe('normal')
+  })
+
   it('validates backups', () => {
     const progress = { d: { cards: { a: review(undefined, Rating.Easy, now) }, days: {} } }
     const backup = makeBackup(DEFAULT_SETTINGS, progress, now)

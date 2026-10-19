@@ -22,6 +22,13 @@ Spaced-repetition flashcards for language vocabulary, starting with Greek. It ru
 
 **A round** is filled with the cards that are due (most overdue first), then new cards up to your daily limit (20 per deck by default; change it in Settings). New cards are introduced in the order they appear in the deck file. The cards in a round are shuffled, so the order is different each time. When you're done for the day you can still learn more new cards or practice cards that aren't due yet.
 
+**Card direction** (Settings › Study):
+- **Word first** (Greek → English) is the default.
+- **Translation first** (English → Greek) shows the translation, and you recall the Greek. The word is spoken when you reveal it.
+- **Both ways** picks a direction at random for each card in a round.
+
+A card has the same progress whichever way it's shown.
+
 **Ranks** come from FSRS *stability*: roughly how many days until your chance of remembering the card drops to 90%.
 
 | Rank | Meaning |

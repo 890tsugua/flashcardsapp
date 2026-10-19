@@ -5,9 +5,9 @@ import { NothingToStudy } from '../components/NothingToStudy'
 import { RankBadge } from '../components/RankBar'
 import type { Deck } from '../lib/deck'
 import { rankIndex, rankOf, type Rank } from '../lib/rank'
-import { applyAnswer, isRoundOver, planRound, startRound, type RoundMode, type RoundState } from '../lib/round'
+import { applyAnswer, isRoundOver, pickReversed, planRound, startRound, type RoundMode, type RoundState } from '../lib/round'
 import { GRADE_LABELS, GRADES, isNew, previewOutcomes, Rating, type Grade, type Outcome } from '../lib/srs'
-import { langPrefix, pronounceCard, speak, stopSpeaking, unlockSpeech } from '../lib/speech'
+import { languageName, langPrefix, pronounceCard, speak, stopSpeaking, unlockSpeech } from '../lib/speech'
 import {
   deckProgress,
   getState,
@@ -34,6 +34,8 @@ interface Session {
   id: number
   round: RoundState
   rankBefore: Record<string, Rank>
+  /** Cards shown translation-first this round. */
+  reversed: Set<string>
   undo: { round: RoundState; entry: UndoEntry }[]
 }
 
@@ -46,6 +48,7 @@ function newSession(deck: Deck, mode: RoundMode): Session {
     id: Date.now(),
     round: startRound(ids),
     rankBefore: Object.fromEntries(ids.map((id) => [id, rankOf(progress.cards[id])])),
+    reversed: pickReversed(ids, app.settings.direction),
     undo: [],
   }
 }
@@ -66,12 +69,15 @@ export function StudyPage({ deck, mode }: { deck: Deck; mode: RoundMode }) {
   const { round } = session
   const card = round.queue.length > 0 ? cardsById.get(round.queue[0]) : undefined
   const over = isRoundOver(round)
+  const reversed = card !== undefined && session.reversed.has(card.id)
+  // A translation-first card keeps the word (and its sound) hidden until you reveal the answer.
+  const hidingWord = reversed && !reveal
   const speakOptions = { voiceURI: settings.voiceByLang[langPrefix(deck.language)], rate: settings.speechRate }
 
-  // Say each card out loud shortly after it comes up.
+  // Say each card out loud shortly after it comes up (translation-first cards wait for the reveal).
   const shown = round.answers.length
   useEffect(() => {
-    if (!card || !settings.autoplay) return
+    if (!card || !settings.autoplay || session.reversed.has(card.id)) return
     const timer = window.setTimeout(() => pronounceCard(card, deck.language, speakOptions), AUTOPLAY_DELAY_MS)
     return () => window.clearTimeout(timer)
   }, [session.id, shown])
@@ -86,6 +92,7 @@ export function StudyPage({ deck, mode }: { deck: Deck; mode: RoundMode }) {
     if (!card || reveal) return
     const at = new Date()
     setReveal({ at, outcomes: previewOutcomes(progress.cards[card.id], at) })
+    if (reversed && settings.autoplay) pronounceCard(card, deck.language, speakOptions)
   }
 
   const answer = (grade: Grade) => {
@@ -105,7 +112,7 @@ export function StudyPage({ deck, mode }: { deck: Deck; mode: RoundMode }) {
     setReveal({ at, outcomes: previewOutcomes(last.entry.previous, at) })
   }
 
-  const replay = () => card && pronounceCard(card, deck.language, speakOptions)
+  const replay = () => card && !hidingWord && pronounceCard(card, deck.language, speakOptions)
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -207,24 +214,34 @@ export function StudyPage({ deck, mode }: { deck: Deck; mode: RoundMode }) {
         aria-live="polite"
       >
         <div className="study-card-tags">{isNew(p) ? <span className="tag">New</span> : <RankBadge rank={rankOf(p)} />}</div>
-        <button
-          type="button"
-          className="icon-btn study-card-speak"
-          aria-label="Play pronunciation"
-          title="Play (R)"
-          onClick={(e) => {
-            e.stopPropagation()
-            replay()
-          }}
-        >
-          <SpeakerIcon />
-        </button>
+        {!hidingWord && (
+          <button
+            type="button"
+            className="icon-btn study-card-speak"
+            aria-label="Play pronunciation"
+            title="Play (R)"
+            onClick={(e) => {
+              e.stopPropagation()
+              replay()
+            }}
+          >
+            <SpeakerIcon />
+          </button>
+        )}
         <div className="front">
-          <div className="word" lang={deck.language}>
-            {card.article && <span className="article">{card.article} </span>}
-            {card.word}
-          </div>
-          {!reveal && <div className="reveal-hint">Tap to show the answer</div>}
+          {hidingWord ? (
+            <div className="word prompt">{card.translation}</div>
+          ) : (
+            <div className="word" lang={deck.language}>
+              {card.article && <span className="article">{card.article} </span>}
+              {card.word}
+            </div>
+          )}
+          {!reveal && (
+            <div className="reveal-hint">
+              {reversed ? `Tap to show the ${languageName(deck.language)}` : 'Tap to show the answer'}
+            </div>
+          )}
         </div>
         {reveal && (
           <div className="answer">

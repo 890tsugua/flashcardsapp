@@ -1,7 +1,7 @@
 // Picking the cards for a round, and the order they come up in during it.
 import type { Deck } from './deck'
 import { isNew, type Grade } from './srs'
-import type { DeckProgress } from './storage'
+import type { DeckProgress, Direction } from './storage'
 import { dayKey, endOfStudyDay } from './time'
 
 /**
@@ -88,6 +88,13 @@ export function planRound(deck: Deck, progress: DeckProgress, { size, newPerDay,
   const newLimit = mode === 'more-new' ? Infinity : Math.max(0, newPerDay - newCardsToday(progress, now))
   const fresh = newCardIds(deck, progress).slice(0, Math.min(newLimit, size - due.length))
   return shuffle([...due, ...fresh], random)
+}
+
+/** The cards in a round to show translation-first, according to the direction setting. */
+export function pickReversed(cardIds: string[], direction: Direction, random: () => number = Math.random): Set<string> {
+  if (direction === 'normal') return new Set()
+  if (direction === 'inverse') return new Set(cardIds)
+  return new Set(cardIds.filter(() => random() < 0.5))
 }
 
 // ---- During a round ----

@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from 'react'
 import { BackIcon } from '../components/Icons'
 import { decks } from '../lib/decks'
 import { frontText } from '../lib/deck'
-import { langPrefix, speak, speechSupported, useVoices, voicesFor } from '../lib/speech'
+import { languageName, langPrefix, speak, speechSupported, useVoices, voicesFor } from '../lib/speech'
 import { exportBackup, requestPersistence, restoreBackup, updateSettings, useAppState } from '../lib/store'
-import { parseBackup, type Theme } from '../lib/storage'
+import { parseBackup, type Direction, type Theme } from '../lib/storage'
 import { dayKey } from '../lib/time'
 import { hrefFor } from '../router'
 
@@ -27,13 +27,11 @@ function NumberInput({ value, min, max, onChange, label }: { value: number; min:
   )
 }
 
-function languageName(lang: string): string {
-  try {
-    return new Intl.DisplayNames(['en'], { type: 'language' }).of(langPrefix(lang)) ?? lang
-  } catch {
-    return lang
-  }
-}
+const DIRECTIONS: { value: Direction; label: string }[] = [
+  { value: 'normal', label: 'Word first' },
+  { value: 'inverse', label: 'Translation first' },
+  { value: 'both', label: 'Both ways' },
+]
 
 const THEMES: { value: Theme; label: string }[] = [
   { value: 'system', label: 'System' },
@@ -57,6 +55,7 @@ export function SettingsPage() {
     lang: deck.language,
     sample: deck.cards[0] ? frontText(deck.cards[0]) : '',
   }))
+  const wordLanguage = languages.length === 1 ? languageName(languages[0].lang) : 'foreign'
 
   const download = () => {
     const blob = new Blob([JSON.stringify(exportBackup(), null, 2)], { type: 'application/json' })
@@ -171,6 +170,21 @@ export function SettingsPage() {
 
       <section className="panel" aria-labelledby="study-settings-heading">
         <h2 id="study-settings-heading">Study</h2>
+        <div className="field">
+          <span className="field-label">Card direction</span>
+          <div className="chips" role="group" aria-label="Card direction">
+            {DIRECTIONS.map((d) => (
+              <button key={d.value} type="button" className="chip" aria-pressed={settings.direction === d.value} onClick={() => updateSettings({ direction: d.value })}>
+                {d.label}
+              </button>
+            ))}
+          </div>
+          <p className="field-help">
+            Word first: you see the {wordLanguage} word and recall its meaning. Translation first: you see the meaning and
+            recall the {wordLanguage} word, which is spoken when you reveal it. Both ways: each card goes one way or the
+            other at random. A card's progress is the same whichever way it's shown.
+          </p>
+        </div>
         <div className="field">
           <span className="field-label">New cards per day</span>
           <NumberInput label="New cards per day" value={settings.newPerDay} min={0} max={9999} onChange={(n) => updateSettings({ newPerDay: n })} />
