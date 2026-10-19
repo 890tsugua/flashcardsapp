@@ -20,6 +20,9 @@ import {
 import { formatInterval } from '../lib/time'
 import { hrefFor, navigate } from '../router'
 
+/** A short pause before each new card is spoken, so the word isn't read out the instant it appears. */
+const AUTOPLAY_DELAY_MS = 300
+
 const GRADE_CLASS: Record<Grade, string> = {
   [Rating.Again]: 'grade-fail',
   [Rating.Hard]: 'grade-hard',
@@ -65,10 +68,12 @@ export function StudyPage({ deck, mode }: { deck: Deck; mode: RoundMode }) {
   const over = isRoundOver(round)
   const speakOptions = { voiceURI: settings.voiceByLang[langPrefix(deck.language)], rate: settings.speechRate }
 
-  // Say each card out loud as it comes up (including when the same card comes straight back).
+  // Say each card out loud shortly after it comes up.
   const shown = round.answers.length
   useEffect(() => {
-    if (card && settings.autoplay) pronounceCard(card, deck.language, speakOptions)
+    if (!card || !settings.autoplay) return
+    const timer = window.setTimeout(() => pronounceCard(card, deck.language, speakOptions), AUTOPLAY_DELAY_MS)
+    return () => window.clearTimeout(timer)
   }, [session.id, shown])
 
   useEffect(() => stopSpeaking, [])
@@ -87,7 +92,7 @@ export function StudyPage({ deck, mode }: { deck: Deck; mode: RoundMode }) {
     if (!card || !reveal) return
     const { progress: next } = reveal.outcomes[grade]
     const entry = recordAnswer(deck.id, card.id, grade, next, reveal.at)
-    setSession((s) => ({ ...s, round: applyAnswer(s.round, grade, next, reveal.at), undo: [...s.undo, { round: s.round, entry }] }))
+    setSession((s) => ({ ...s, round: applyAnswer(s.round, grade), undo: [...s.undo, { round: s.round, entry }] }))
     setReveal(null)
   }
 
@@ -181,15 +186,15 @@ export function StudyPage({ deck, mode }: { deck: Deck; mode: RoundMode }) {
         <div
           className="progress"
           role="progressbar"
-          aria-label="Cards finished"
+          aria-label="Cards answered"
           aria-valuemin={0}
           aria-valuemax={round.total}
-          aria-valuenow={round.finished.length}
+          aria-valuenow={round.answers.length}
         >
-          <div style={{ width: `${(round.finished.length / round.total) * 100}%` }} />
+          <div style={{ width: `${(round.answers.length / round.total) * 100}%` }} />
         </div>
         <span className="study-count">
-          {round.finished.length} / {round.total}
+          {round.answers.length} / {round.total}
         </span>
         <button type="button" className="icon-btn" onClick={undo} disabled={session.undo.length === 0} aria-label="Undo last answer" title="Undo (U)">
           <UndoIcon />
@@ -267,14 +272,8 @@ function Summary({
   const size = settings.roundSize[deck.id] ?? settings.defaultRoundSize
   const moreToStudy = planRound(deck, progress, { size, newPerDay: settings.newPerDay, mode: 'normal', now: new Date() }).length
 
-  // First answer per card says how well you knew it coming in.
-  const firstTry: Record<Grade, number> = { [Rating.Again]: 0, [Rating.Hard]: 0, [Rating.Good]: 0, [Rating.Easy]: 0 }
-  const seen = new Set<string>()
-  for (const { cardId, grade } of session.round.answers) {
-    if (seen.has(cardId)) continue
-    seen.add(cardId)
-    firstTry[grade]++
-  }
+  const counts: Record<Grade, number> = { [Rating.Again]: 0, [Rating.Hard]: 0, [Rating.Good]: 0, [Rating.Easy]: 0 }
+  for (const { grade } of session.round.answers) counts[grade]++
 
   const changes = Object.entries(session.rankBefore)
     .map(([id, before]) => ({ card: deck.cards.find((c) => c.id === id)!, before, after: rankOf(progress.cards[id]) }))
@@ -286,12 +285,12 @@ function Summary({
       <section className="panel">
         <h1>Round complete</h1>
         <p className="secondary" style={{ marginTop: 6 }}>
-          {session.round.total} cards, {session.round.answers.length} answers. Your first answer for each card:
+          You went through {session.round.total} {session.round.total === 1 ? 'card' : 'cards'}:
         </p>
         <div className="summary-grades">
           {GRADES.map((grade) => (
             <div key={grade} className={`summary-grade ${GRADE_CLASS[grade]}`}>
-              <b>{firstTry[grade]}</b>
+              <b>{counts[grade]}</b>
               <span className="secondary small">{GRADE_LABELS[grade]}</span>
             </div>
           ))}

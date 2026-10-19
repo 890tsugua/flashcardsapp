@@ -1,13 +1,15 @@
 import { describe, expect, it } from 'vitest'
 import type { Deck } from './deck'
 import { rankCounts, rankOf } from './rank'
-import { applyAnswer, deckStatus, isRoundOver, planRound, startRound } from './round'
+import { applyAnswer, deckStatus, isRoundOver, planRound, shuffle, startRound } from './round'
 import { previewOutcomes, Rating, review, State, type CardProgress } from './srs'
 import { emptyProgress, type DeckProgress } from './storage'
 import { DAY_MS, dayKey, formatDue, formatInterval, MINUTE_MS } from './time'
 
 const now = new Date(2026, 9, 18, 12, 0, 0)
 const later = (ms: number) => new Date(now.getTime() + ms)
+/** Makes the shuffle a no-op, so tests can check which cards were picked and in what priority. */
+const noShuffle = () => 0.999999
 
 function deckOf(n: number): Deck {
   return {
@@ -91,13 +93,13 @@ describe('planning a round', () => {
         c2: reviewCard(5, now.getTime() + 5 * DAY_MS), // not due
       },
     }
-    expect(planRound(deck, progress, { size: 4, newPerDay: 20, mode: 'normal', now })).toEqual(['c1', 'c0', 'c3', 'c4'])
+    expect(planRound(deck, progress, { size: 4, newPerDay: 20, mode: 'normal', now, random: noShuffle })).toEqual(['c1', 'c0', 'c3', 'c4'])
   })
 
   it('respects the daily new-card limit unless asked for more', () => {
     const deck = deckOf(10)
     const progress: DeckProgress = { ...emptyProgress(), days: { [dayKey(now)]: { reviews: 5, newCards: 8, fails: 0 } } }
-    expect(planRound(deck, progress, { size: 5, newPerDay: 10, mode: 'normal', now })).toEqual(['c0', 'c1'])
+    expect(planRound(deck, progress, { size: 5, newPerDay: 10, mode: 'normal', now, random: noShuffle })).toEqual(['c0', 'c1'])
     expect(planRound(deck, progress, { size: 5, newPerDay: 10, mode: 'more-new', now })).toHaveLength(5)
     expect(deckStatus(deck, progress, 10, now)).toMatchObject({ due: 0, newAvailable: 2, unseen: 10, newToday: 8 })
   })
@@ -112,30 +114,48 @@ describe('planning a round', () => {
         c2: reviewCard(5, now.getTime() - DAY_MS), // due, belongs in a normal round
       },
     }
-    expect(planRound(deck, progress, { size: 10, newPerDay: 20, mode: 'practice', now })).toEqual(['c1', 'c0'])
+    expect(planRound(deck, progress, { size: 10, newPerDay: 20, mode: 'practice', now, random: noShuffle })).toEqual(['c1', 'c0'])
+  })
+
+  it('shuffles the order but not which cards are picked', () => {
+    const deck = deckOf(30)
+    const orders = new Set<string>()
+    for (let i = 0; i < 10; i++) {
+      const ids = planRound(deck, emptyProgress(), { size: 10, newPerDay: 20, mode: 'normal', now })
+      expect([...ids].sort()).toEqual(deck.cards.slice(0, 10).map((c) => c.id).sort())
+      orders.add(ids.join())
+    }
+    expect(orders.size).toBeGreaterThan(1)
+  })
+
+  it('shuffle keeps every item exactly once', () => {
+    const items = Array.from({ length: 50 }, (_, i) => i)
+    const shuffled = shuffle(items)
+    expect(shuffled).toHaveLength(50)
+    expect([...shuffled].sort((a, b) => a - b)).toEqual(items)
   })
 })
 
 describe('during a round', () => {
-  it('brings failed cards back and finishes when everything is learned', () => {
+  it('shows each card once, whatever the answers, so a round of 5 is 5 cards', () => {
     let round = startRound(['a', 'b', 'c', 'd', 'e'])
-    const progress: Record<string, CardProgress | undefined> = {}
-    const answer = (grade: Rating.Again | Rating.Good | Rating.Easy) => {
-      const id = round.queue[0]
-      const next = review(progress[id], grade, now)
-      progress[id] = next
-      round = applyAnswer(round, grade, next, now)
-      return id
+    const grades = [Rating.Again, Rating.Hard, Rating.Good, Rating.Again, Rating.Easy] as const
+    const shown: string[] = []
+    for (const grade of grades) {
+      expect(isRoundOver(round)).toBe(false)
+      shown.push(round.queue[0])
+      round = applyAnswer(round, grade)
     }
-    expect(answer(Rating.Again)).toBe('a')
-    expect(round.queue).toEqual(['b', 'c', 'd', 'a', 'e'])
-    expect(answer(Rating.Easy)).toBe('b')
-    expect(round.finished).toEqual(['b'])
-
-    let guard = 0
-    while (!isRoundOver(round) && guard++ < 50) answer(Rating.Good)
+    expect(shown).toEqual(['a', 'b', 'c', 'd', 'e'])
     expect(isRoundOver(round)).toBe(true)
-    expect(round.finished.sort()).toEqual(['a', 'b', 'c', 'd', 'e'])
+    expect(round.answers).toHaveLength(5)
+  })
+
+  it('a failed card is due again soon, so the next round picks it up', () => {
+    const deck = deckOf(3)
+    const failed = review(undefined, Rating.Again, now)
+    const progress: DeckProgress = { ...emptyProgress(), cards: { c2: failed } }
+    expect(planRound(deck, progress, { size: 1, newPerDay: 20, mode: 'normal', now: later(MINUTE_MS) })).toEqual(['c2'])
   })
 })
 

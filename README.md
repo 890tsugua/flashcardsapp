@@ -8,7 +8,7 @@ Spaced-repetition flashcards for language vocabulary, starting with Greek. It ru
 - Answer **Fail**, **Hard**, **Good** or **Easy**. The scheduler ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs), the algorithm Anki uses by default) decides when you see the card next. Each button shows that interval.
 - Every card has a rank from **F** to **A** based on how long you're expected to remember it.
 - Each deck's page shows how many cards are at each rank, what's due, and reviews coming up over the next week.
-- You choose how many cards go into a round. Cards you fail come back later in the same round.
+- You choose how many cards go into a round, and each card shows once, so a round of 10 is 10 cards. Cards you fail are due again within minutes, so they come back in your next round.
 - The site works offline and can be added to your phone's home screen.
 
 ## Studying
@@ -20,7 +20,7 @@ Spaced-repetition flashcards for language vocabulary, starting with Greek. It ru
 | R | Say the word again |
 | U | Undo the last answer |
 
-**A round** starts with cards that are due (most overdue first), then adds new cards up to your daily limit (20 per deck by default; change it in Settings). When you're done for the day you can still learn more new cards or practice cards that aren't due yet.
+**A round** is filled with the cards that are due (most overdue first), then new cards up to your daily limit (20 per deck by default; change it in Settings). New cards are introduced in the order they appear in the deck file. The cards in a round are shuffled, so the order is different each time. When you're done for the day you can still learn more new cards or practice cards that aren't due yet.
 
 **Ranks** come from FSRS *stability*: roughly how many days until your chance of remembering the card drops to 90%.
 

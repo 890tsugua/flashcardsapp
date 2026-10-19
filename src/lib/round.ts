@@ -1,8 +1,8 @@
 // Picking the cards for a round, and the order they come up in during it.
 import type { Deck } from './deck'
-import { isNew, Rating, type CardProgress, type Grade } from './srs'
+import { isNew, type Grade } from './srs'
 import type { DeckProgress } from './storage'
-import { dayKey, endOfStudyDay, HOUR_MS } from './time'
+import { dayKey, endOfStudyDay } from './time'
 
 /**
  * normal:   due cards first, then new cards within the daily limit
@@ -57,51 +57,59 @@ export interface RoundOptions {
   newPerDay: number
   mode: RoundMode
   now: Date
+  /** Source of randomness for the card order; tests pass a fixed one. */
+  random?: () => number
 }
 
-/** The card ids for a round, in the order they are first shown. */
-export function planRound(deck: Deck, progress: DeckProgress, { size, newPerDay, mode, now }: RoundOptions): string[] {
+export function shuffle<T>(items: T[], random: () => number = Math.random): T[] {
+  const result = [...items]
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1))
+    ;[result[i], result[j]] = [result[j], result[i]]
+  }
+  return result
+}
+
+/**
+ * The card ids for a round, in the order they are shown. Which cards go in follows priority
+ * (most overdue first, then new cards in deck order); the order you see them in is shuffled.
+ */
+export function planRound(deck: Deck, progress: DeckProgress, { size, newPerDay, mode, now, random }: RoundOptions): string[] {
   if (mode === 'practice') {
     const due = new Set(dueCardIds(deck, progress, now))
-    return deck.cards
+    const soonest = deck.cards
       .filter((c) => !isNew(progress.cards[c.id]) && !due.has(c.id))
       .sort((a, b) => progress.cards[a.id].due - progress.cards[b.id].due)
       .slice(0, size)
       .map((c) => c.id)
+    return shuffle(soonest, random)
   }
   const due = dueCardIds(deck, progress, now).slice(0, size)
   const newLimit = mode === 'more-new' ? Infinity : Math.max(0, newPerDay - newCardsToday(progress, now))
   const fresh = newCardIds(deck, progress).slice(0, Math.min(newLimit, size - due.length))
-  return [...due, ...fresh]
+  return shuffle([...due, ...fresh], random)
 }
 
 // ---- During a round ----
 
-/** A card due again within this window is still being learned and comes back in the same round. */
-const REQUEUE_WINDOW_MS = HOUR_MS
-
+/**
+ * Each card is shown once per round. A failed card is due again within minutes,
+ * so it comes back in the next round.
+ */
 export interface RoundState {
   /** queue[0] is the card on screen. */
   queue: string[]
   total: number
-  finished: string[]
   answers: { cardId: string; grade: Grade }[]
 }
 
 export function startRound(cardIds: string[]): RoundState {
-  return { queue: [...cardIds], total: cardIds.length, finished: [], answers: [] }
+  return { queue: [...cardIds], total: cardIds.length, answers: [] }
 }
 
-export function applyAnswer(round: RoundState, grade: Grade, next: CardProgress, now: Date): RoundState {
+export function applyAnswer(round: RoundState, grade: Grade): RoundState {
   const [cardId, ...rest] = round.queue
-  const answers = [...round.answers, { cardId, grade }]
-  if (next.due - now.getTime() < REQUEUE_WINDOW_MS) {
-    // Bring it back after a few other cards (sooner if failed); at the end if the queue is short.
-    const gap = grade === Rating.Again ? 3 : 5
-    rest.splice(Math.min(rest.length, gap), 0, cardId)
-    return { ...round, queue: rest, answers }
-  }
-  return { ...round, queue: rest, finished: [...round.finished, cardId], answers }
+  return { ...round, queue: rest, answers: [...round.answers, { cardId, grade }] }
 }
 
 export function isRoundOver(round: RoundState): boolean {
