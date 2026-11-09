@@ -1,0 +1,1017 @@
+{
+  "name": "Greek Words 201–300",
+  "description": "Common Greek nouns, pronouns, adjectives and adverbs, numbers 201–300 on the frequency list. Nouns come with their article, plural and genitive; adjectives with their feminine and neuter forms.",
+  "language": "el-GR",
+  "cards": [
+    {
+      "word": "βαρύς",
+      "translation": "heavy",
+      "transliteration": "varís",
+      "partOfSpeech": "adjective",
+      "definition": "Weighing a lot; also hard to digest.",
+      "forms": {"feminine": "βαριά", "neuter": "βαρύ"},
+      "examples": [{"text": "Η βαλίτσα είναι πολύ βαριά.", "translation": "The suitcase is very heavy."}, {"text": "Έφαγα ένα βαρύ φαγητό.", "translation": "I ate a heavy meal."}],
+      "notes": "Opposite: ελαφρύς."
+    },
+    {
+      "word": "ελαφρύς",
+      "translation": "light (in weight); mild",
+      "transliteration": "elafrís",
+      "partOfSpeech": "adjective",
+      "definition": "Not heavy.",
+      "forms": {"feminine": "ελαφριά", "neuter": "ελαφρύ"},
+      "examples": [{"text": "Η τσάντα είναι ελαφριά.", "translation": "The bag is light."}, {"text": "Θέλω κάτι ελαφρύ για βραδινό.", "translation": "I want something light for dinner."}],
+      "notes": "Also spelled ελαφρός. Opposite: βαρύς."
+    },
+    {
+      "word": "γρήγορος",
+      "translation": "fast, quick",
+      "transliteration": "ghríghoros",
+      "partOfSpeech": "adjective",
+      "definition": "Moving or happening at high speed.",
+      "forms": {"feminine": "γρήγορη", "neuter": "γρήγορο"},
+      "examples": [{"text": "Είναι πολύ γρήγορος δρομέας.", "translation": "He's a very fast runner."}, {"text": "Το ίντερνετ εδώ είναι πολύ γρήγορο.", "translation": "The internet here is very fast."}],
+      "notes": "Adverb: γρήγορα = quickly. Γρήγορα! = Hurry up!"
+    },
+    {
+      "word": "αργός",
+      "translation": "slow",
+      "transliteration": "arghós",
+      "partOfSpeech": "adjective",
+      "definition": "Taking a long time; not fast.",
+      "forms": {"feminine": "αργή", "neuter": "αργό"},
+      "examples": [{"text": "Το λεωφορείο είναι πιο αργό από το μετρό.", "translation": "The bus is slower than the metro."}, {"text": "Η εξυπηρέτηση ήταν αργή.", "translation": "The service was slow."}],
+      "notes": "Adverb: αργά = slowly; also late."
+    },
+    {
+      "word": "πλούσιος",
+      "translation": "rich, wealthy",
+      "transliteration": "ploúsios",
+      "partOfSpeech": "adjective",
+      "definition": "Having a lot of money; having a lot of something.",
+      "forms": {"feminine": "πλούσια", "neuter": "πλούσιο"},
+      "examples": [{"text": "Είναι πολύ πλούσια οικογένεια.", "translation": "It's a very rich family."}, {"text": "Η Ελλάδα έχει πλούσια ιστορία.", "translation": "Greece has a rich history."}],
+      "notes": "Opposite: φτωχός."
+    },
+    {
+      "word": "φτωχός",
+      "translation": "poor",
+      "transliteration": "ftochós",
+      "partOfSpeech": "adjective",
+      "definition": "Having little money.",
+      "forms": {"feminine": "φτωχή", "neuter": "φτωχό"},
+      "examples": [{"text": "Ήταν φτωχοί αλλά ευτυχισμένοι.", "translation": "They were poor but happy."}, {"text": "Μεγάλωσε σε ένα φτωχό χωριό.", "translation": "He grew up in a poor village."}]
+    },
+    {
+      "word": "ευτυχισμένος",
+      "translation": "happy",
+      "transliteration": "eftichizménos",
+      "partOfSpeech": "adjective",
+      "definition": "Feeling or showing deep happiness.",
+      "forms": {"feminine": "ευτυχισμένη", "neuter": "ευτυχισμένο"},
+      "examples": [{"text": "Είμαι πολύ ευτυχισμένος μαζί σου.", "translation": "I'm very happy with you."}, {"text": "Ευτυχισμένο το νέο έτος!", "translation": "Happy New Year!"}],
+      "notes": "Χρόνια πολλά και ευτυχισμένα! = Many happy returns!"
+    },
+    {
+      "word": "λυπημένος",
+      "translation": "sad",
+      "transliteration": "lipiménos",
+      "partOfSpeech": "adjective",
+      "definition": "Unhappy.",
+      "forms": {"feminine": "λυπημένη", "neuter": "λυπημένο"},
+      "examples": [{"text": "Γιατί είσαι λυπημένη;", "translation": "Why are you sad?"}, {"text": "Το παιδί φαίνεται λυπημένο.", "translation": "The child looks sad."}],
+      "notes": "Λυπάμαι = I'm sorry."
+    },
+    {
+      "word": "χαρούμενος",
+      "translation": "cheerful, glad, happy",
+      "transliteration": "charoúmenos",
+      "partOfSpeech": "adjective",
+      "definition": "Full of joy; pleased.",
+      "forms": {"feminine": "χαρούμενη", "neuter": "χαρούμενο"},
+      "examples": [{"text": "Είναι πάντα χαρούμενη.", "translation": "She's always cheerful."}, {"text": "Είμαι χαρούμενος που ήρθες.", "translation": "I'm glad you came."}],
+      "notes": "Η χαρά = joy. Χαίρομαι = I'm glad."
+    },
+    {
+      "word": "θυμωμένος",
+      "translation": "angry",
+      "transliteration": "thimoménos",
+      "partOfSpeech": "adjective",
+      "definition": "Feeling anger.",
+      "forms": {"feminine": "θυμωμένη", "neuter": "θυμωμένο"},
+      "examples": [{"text": "Είναι θυμωμένος μαζί μου.", "translation": "He's angry with me."}, {"text": "Γιατί είσαι τόσο θυμωμένη;", "translation": "Why are you so angry?"}],
+      "notes": "Ο θυμός = anger. Θυμώνω = to get angry."
+    },
+    {
+      "word": "κουρασμένος",
+      "translation": "tired",
+      "transliteration": "kourazménos",
+      "partOfSpeech": "adjective",
+      "definition": "Needing rest.",
+      "forms": {"feminine": "κουρασμένη", "neuter": "κουρασμένο"},
+      "examples": [{"text": "Είμαι πολύ κουρασμένος σήμερα.", "translation": "I'm very tired today."}, {"text": "Φαίνεσαι κουρασμένη.", "translation": "You look tired."}],
+      "notes": "Κουράζομαι = to get tired."
+    },
+    {
+      "word": "άρρωστος",
+      "translation": "ill, sick",
+      "transliteration": "árostos",
+      "partOfSpeech": "adjective",
+      "definition": "Not well; having an illness.",
+      "forms": {"feminine": "άρρωστη", "neuter": "άρρωστο"},
+      "examples": [{"text": "Είμαι άρρωστος και μένω σπίτι.", "translation": "I'm ill so I'm staying at home."}, {"text": "Το παιδί είναι άρρωστο από χθες.", "translation": "The child has been ill since yesterday."}],
+      "notes": "Η αρρώστια = illness. Αρρωσταίνω = to fall ill."
+    },
+    {
+      "word": "έτοιμος",
+      "translation": "ready",
+      "transliteration": "étimos",
+      "partOfSpeech": "adjective",
+      "definition": "Prepared to do something or be used.",
+      "forms": {"feminine": "έτοιμη", "neuter": "έτοιμο"},
+      "examples": [{"text": "Είσαι έτοιμη; Φεύγουμε!", "translation": "Are you ready? We're leaving!"}, {"text": "Το φαγητό είναι έτοιμο.", "translation": "The food is ready."}],
+      "notes": "Ετοιμάζω = to prepare."
+    },
+    {
+      "word": "σίγουρος",
+      "translation": "sure, certain; safe",
+      "transliteration": "síghouros",
+      "partOfSpeech": "adjective",
+      "definition": "Having no doubt; free from danger.",
+      "forms": {"feminine": "σίγουρη", "neuter": "σίγουρο"},
+      "examples": [{"text": "Είσαι σίγουρος;", "translation": "Are you sure?"}, {"text": "Δεν είμαι σίγουρη ότι θα έρθει.", "translation": "I'm not sure she'll come."}],
+      "notes": "Σίγουρα! = Certainly! / Sure!"
+    },
+    {
+      "word": "δικός",
+      "translation": "own; (with μου, σου…) mine, yours…",
+      "transliteration": "dhikós",
+      "partOfSpeech": "adjective",
+      "definition": "Belonging to a particular person.",
+      "forms": {"feminine": "δική", "neuter": "δικό"},
+      "examples": [{"text": "Αυτό είναι δικό μου.", "translation": "This is mine."}, {"text": "Θέλω το δικό μου δωμάτιο.", "translation": "I want my own room."}],
+      "notes": "Δικός μου / σου / του = mine / yours / his."
+    },
+    {
+      "word": "καινούριος",
+      "translation": "new, brand-new",
+      "transliteration": "kenoúrios",
+      "partOfSpeech": "adjective",
+      "definition": "Just made or bought; not used before.",
+      "forms": {"feminine": "καινούρια", "neuter": "καινούριο"},
+      "examples": [{"text": "Αγόρασα καινούριο κινητό.", "translation": "I bought a new phone."}, {"text": "Είναι καινούρια η τσάντα σου;", "translation": "Is your bag new?"}],
+      "notes": "Also spelled καινούργιος. Νέος also means new, but καινούριος is the usual word for brand-new things."
+    },
+    {
+      "word": "διαφορετικός",
+      "translation": "different",
+      "transliteration": "dhiaforetikós",
+      "partOfSpeech": "adjective",
+      "definition": "Not the same.",
+      "forms": {"feminine": "διαφορετική", "neuter": "διαφορετικό"},
+      "examples": [{"text": "Τα δύο αδέρφια είναι πολύ διαφορετικά.", "translation": "The two siblings are very different."}, {"text": "Θέλω κάτι διαφορετικό.", "translation": "I want something different."}],
+      "notes": "Διαφορετικός από = different from."
+    },
+    {
+      "word": "φιλικός",
+      "translation": "friendly",
+      "transliteration": "filikós",
+      "partOfSpeech": "adjective",
+      "definition": "Kind and pleasant to others.",
+      "forms": {"feminine": "φιλική", "neuter": "φιλικό"},
+      "examples": [{"text": "Οι άνθρωποι εδώ είναι πολύ φιλικοί.", "translation": "The people here are very friendly."}, {"text": "Ήταν ένα φιλικό παιχνίδι.", "translation": "It was a friendly match."}]
+    },
+    {
+      "word": "κοντά",
+      "translation": "near, close (by)",
+      "transliteration": "kondá",
+      "partOfSpeech": "adverb",
+      "definition": "At or to a short distance.",
+      "examples": [{"text": "Μένω κοντά στη θάλασσα.", "translation": "I live near the sea."}, {"text": "Είναι κοντά; Πάμε με τα πόδια.", "translation": "Is it close? Let's walk."}],
+      "notes": "Κοντά σε = near: κοντά στο σπίτι. Opposite: μακριά."
+    },
+    {
+      "word": "μακριά",
+      "translation": "far, far away",
+      "transliteration": "makriá",
+      "partOfSpeech": "adverb",
+      "definition": "At or to a great distance.",
+      "examples": [{"text": "Μένεις μακριά από εδώ;", "translation": "Do you live far from here?"}, {"text": "Μείνε μακριά από τη φωτιά!", "translation": "Stay away from the fire!"}],
+      "notes": "Μακριά από = far from. Opposite: κοντά."
+    },
+    {
+      "word": "έξω",
+      "translation": "out, outside",
+      "transliteration": "ékso",
+      "partOfSpeech": "adverb",
+      "definition": "Not inside; out of a place.",
+      "examples": [{"text": "Πάμε έξω απόψε;", "translation": "Shall we go out tonight?"}, {"text": "Περίμενέ με έξω από το σινεμά.", "translation": "Wait for me outside the cinema."}],
+      "notes": "Έξω από = outside (of). Στο εξωτερικό = abroad."
+    },
+    {
+      "word": "μπροστά",
+      "translation": "in front, ahead; forward",
+      "transliteration": "brostá",
+      "partOfSpeech": "adverb",
+      "definition": "In the position facing forwards.",
+      "examples": [{"text": "Σε περιμένω μπροστά στο σινεμά.", "translation": "I'll wait for you in front of the cinema."}, {"text": "Κάτσε μπροστά, δίπλα μου.", "translation": "Sit in the front, next to me."}],
+      "notes": "Μπροστά σε / από = in front of. Opposite: πίσω."
+    },
+    {
+      "word": "πίσω",
+      "translation": "behind; back",
+      "transliteration": "píso",
+      "partOfSpeech": "adverb",
+      "definition": "At the back; to an earlier place.",
+      "examples": [{"text": "Ο κήπος είναι πίσω από το σπίτι.", "translation": "The garden is behind the house."}, {"text": "Θα γυρίσω πίσω σε μία ώρα.", "translation": "I'll be back in an hour."}],
+      "notes": "Πίσω από = behind. Opposite: μπροστά."
+    },
+    {
+      "word": "δίπλα",
+      "translation": "next to, beside; next door",
+      "transliteration": "dhípla",
+      "partOfSpeech": "adverb",
+      "definition": "At the side of something.",
+      "examples": [{"text": "Κάτσε δίπλα μου.", "translation": "Sit next to me."}, {"text": "Μένει στο δίπλα σπίτι.", "translation": "She lives next door."}],
+      "notes": "Δίπλα σε = next to: δίπλα στην πόρτα."
+    },
+    {
+      "word": "γύρω",
+      "translation": "around",
+      "transliteration": "yíro",
+      "partOfSpeech": "adverb",
+      "definition": "On every side; in a circle.",
+      "examples": [{"text": "Κοίτα γύρω σου!", "translation": "Look around you!"}, {"text": "Υπάρχουν πολλά μαγαζιά γύρω από την πλατεία.", "translation": "There are lots of shops around the square."}],
+      "notes": "Γύρω από = around. With numbers: γύρω στα πενήντα = about fifty."
+    },
+    {
+      "word": "δεξιά",
+      "translation": "right, to the right",
+      "transliteration": "dheksiá",
+      "partOfSpeech": "adverb",
+      "definition": "On or to the right-hand side.",
+      "examples": [{"text": "Στρίψτε δεξιά στο φανάρι.", "translation": "Turn right at the traffic lights."}, {"text": "Η τράπεζα είναι στα δεξιά.", "translation": "The bank is on the right."}],
+      "notes": "Opposite: αριστερά. Adjective: δεξιός."
+    },
+    {
+      "word": "αριστερά",
+      "translation": "left, to the left",
+      "transliteration": "aristerá",
+      "partOfSpeech": "adverb",
+      "definition": "On or to the left-hand side.",
+      "examples": [{"text": "Η τουαλέτα είναι αριστερά.", "translation": "The toilet is on the left."}, {"text": "Πάρε τον πρώτο δρόμο αριστερά.", "translation": "Take the first road on the left."}],
+      "notes": "Opposite: δεξιά. In politics, η αριστερά = the Left."
+    },
+    {
+      "word": "πάντως",
+      "translation": "anyway, in any case; however",
+      "transliteration": "pándos",
+      "partOfSpeech": "adverb",
+      "definition": "Whatever else is true.",
+      "examples": [{"text": "Πάντως, ευχαριστώ για τη βοήθεια.", "translation": "Anyway, thanks for the help."}, {"text": "Δεν ξέρω για τους άλλους, εγώ πάντως θα έρθω.", "translation": "I don't know about the others, but I'll come anyway."}]
+    },
+    {
+      "word": "ίσως",
+      "translation": "maybe, perhaps",
+      "transliteration": "ísos",
+      "partOfSpeech": "adverb",
+      "definition": "Possibly.",
+      "examples": [{"text": "Ίσως βρέξει αύριο.", "translation": "It might rain tomorrow."}, {"text": "— Θα έρθεις; — Ίσως.", "translation": "— Are you coming? — Maybe."}]
+    },
+    {
+      "word": "μάλλον",
+      "translation": "probably; rather",
+      "transliteration": "málon",
+      "partOfSpeech": "adverb",
+      "definition": "Most likely.",
+      "examples": [{"text": "Μάλλον θα αργήσω λίγο.", "translation": "I'll probably be a bit late."}, {"text": "Μάλλον έχεις δίκιο.", "translation": "You're probably right."}],
+      "notes": "Μάλλον… παρά… = rather… than…."
+    },
+    {
+      "word": "σχεδόν",
+      "translation": "almost, nearly",
+      "transliteration": "schedhón",
+      "partOfSpeech": "adverb",
+      "definition": "Very close to, but not completely.",
+      "examples": [{"text": "Είναι σχεδόν έτοιμο.", "translation": "It's almost ready."}, {"text": "Πάμε για κολύμπι σχεδόν κάθε μέρα.", "translation": "We go swimming almost every day."}]
+    },
+    {
+      "word": "μόλις",
+      "translation": "just; as soon as",
+      "transliteration": "mólis",
+      "partOfSpeech": "adverb",
+      "definition": "A very short time ago; at the moment when.",
+      "examples": [{"text": "Μόλις έφτασα.", "translation": "I've just arrived."}, {"text": "Πάρε με τηλέφωνο μόλις φτάσεις.", "translation": "Call me as soon as you arrive."}],
+      "notes": "Also \"barely\": μόλις που το είδα = I barely saw it."
+    },
+    {
+      "word": "ξαφνικά",
+      "translation": "suddenly",
+      "transliteration": "ksafniká",
+      "partOfSpeech": "adverb",
+      "definition": "Quickly and without warning.",
+      "examples": [{"text": "Ξαφνικά έσβησαν τα φώτα.", "translation": "Suddenly the lights went out."}, {"text": "Άρχισε ξαφνικά να βρέχει.", "translation": "It suddenly started to rain."}]
+    },
+    {
+      "word": "αμέσως",
+      "translation": "immediately, at once, right away",
+      "transliteration": "amésos",
+      "partOfSpeech": "adverb",
+      "definition": "Without any delay.",
+      "examples": [{"text": "Έλα εδώ αμέσως!", "translation": "Come here at once!"}, {"text": "Θα σας φέρω τον λογαριασμό αμέσως.", "translation": "I'll bring you the bill right away."}]
+    },
+    {
+      "word": "συνήθως",
+      "translation": "usually",
+      "transliteration": "siníthos",
+      "partOfSpeech": "adverb",
+      "definition": "In most cases.",
+      "examples": [{"text": "Συνήθως ξυπνάω στις επτά.", "translation": "I usually wake up at seven."}, {"text": "Τι κάνεις συνήθως το Σαββατοκύριακο;", "translation": "What do you usually do at the weekend?"}],
+      "notes": "Η συνήθεια = habit."
+    },
+    {
+      "word": "συχνά",
+      "translation": "often, frequently",
+      "transliteration": "sichná",
+      "partOfSpeech": "adverb",
+      "definition": "Many times.",
+      "examples": [{"text": "Έρχεσαι συχνά εδώ;", "translation": "Do you come here often?"}, {"text": "Βλέπω συχνά τους γονείς μου.", "translation": "I often see my parents."}],
+      "notes": "Πόσο συχνά; = How often?"
+    },
+    {
+      "word": "ξανά",
+      "translation": "again",
+      "transliteration": "ksaná",
+      "partOfSpeech": "adverb",
+      "definition": "One more time.",
+      "examples": [{"text": "Μπορείς να το πεις ξανά;", "translation": "Can you say it again?"}, {"text": "Θέλω να έρθω ξανά στην Ελλάδα.", "translation": "I want to come to Greece again."}],
+      "notes": "Same meaning as πάλι."
+    },
+    {
+      "word": "σήμερα",
+      "translation": "today",
+      "transliteration": "símera",
+      "partOfSpeech": "adverb",
+      "definition": "On this day.",
+      "examples": [{"text": "Τι μέρα είναι σήμερα;", "translation": "What day is it today?"}, {"text": "Σήμερα κάνει πολλή ζέστη.", "translation": "It's very hot today."}]
+    },
+    {
+      "word": "αύριο",
+      "translation": "tomorrow",
+      "transliteration": "ávrio",
+      "partOfSpeech": "adverb",
+      "definition": "On the day after today.",
+      "examples": [{"text": "Τα λέμε αύριο!", "translation": "See you tomorrow!"}, {"text": "Αύριο το πρωί έχω μάθημα.", "translation": "I have a lesson tomorrow morning."}],
+      "notes": "Μεθαύριο = the day after tomorrow."
+    },
+    {
+      "word": "χθες",
+      "translation": "yesterday",
+      "transliteration": "chthes",
+      "partOfSpeech": "adverb",
+      "definition": "On the day before today.",
+      "examples": [{"text": "Χθες πήγαμε σινεμά.", "translation": "Yesterday we went to the cinema."}, {"text": "Πού ήσουν χθες το βράδυ;", "translation": "Where were you last night?"}],
+      "notes": "Also spelled χτες. Προχθές = the day before yesterday."
+    },
+    {
+      "word": "φέτος",
+      "translation": "this year",
+      "transliteration": "fétos",
+      "partOfSpeech": "adverb",
+      "definition": "During the current year.",
+      "examples": [{"text": "Φέτος θα πάμε διακοπές στην Κρήτη.", "translation": "This year we're going on holiday to Crete."}, {"text": "Φέτος ο χειμώνας είναι πολύ κρύος.", "translation": "The winter is very cold this year."}],
+      "notes": "Πέρσι = last year; του χρόνου = next year."
+    },
+    {
+      "word": "νωρίς",
+      "translation": "early",
+      "transliteration": "norís",
+      "partOfSpeech": "adverb",
+      "definition": "Before the usual or expected time.",
+      "examples": [{"text": "Ξύπνησα νωρίς σήμερα.", "translation": "I woke up early today."}, {"text": "Είναι ακόμα νωρίς.", "translation": "It's still early."}],
+      "notes": "Opposite: αργά."
+    },
+    {
+      "word": "αργά",
+      "translation": "late; slowly",
+      "transliteration": "arghá",
+      "partOfSpeech": "adverb",
+      "definition": "After the usual time; not quickly.",
+      "examples": [{"text": "Είναι αργά, πάμε σπίτι.", "translation": "It's late, let's go home."}, {"text": "Οδήγα αργά, βρέχει.", "translation": "Drive slowly, it's raining."}],
+      "notes": "Αργώ = to be late. Opposite: νωρίς (early) or γρήγορα (quickly)."
+    },
+    {
+      "word": "ήδη",
+      "translation": "already",
+      "transliteration": "ídhi",
+      "partOfSpeech": "adverb",
+      "definition": "Before now, or sooner than expected.",
+      "examples": [{"text": "Έχω ήδη φάει.", "translation": "I've already eaten."}, {"text": "Είναι ήδη δέκα η ώρα!", "translation": "It's already ten o'clock!"}],
+      "notes": "More colloquial: κιόλας."
+    },
+    {
+      "word": "αλλιώς",
+      "translation": "otherwise; differently",
+      "transliteration": "aliós",
+      "partOfSpeech": "adverb",
+      "definition": "If not; in another way.",
+      "examples": [{"text": "Βιάσου, αλλιώς θα χάσουμε το τρένο.", "translation": "Hurry, otherwise we'll miss the train."}, {"text": "Το φανταζόμουν αλλιώς.", "translation": "I imagined it differently."}]
+    },
+    {
+      "word": "επίσης",
+      "translation": "also, as well; likewise",
+      "transliteration": "epísis",
+      "partOfSpeech": "adverb",
+      "definition": "In addition; in the same way.",
+      "examples": [{"text": "Μιλάει ελληνικά και επίσης γαλλικά.", "translation": "She speaks Greek and also French."}, {"text": "— Καλή όρεξη! — Επίσης!", "translation": "— Enjoy your meal! — You too!"}],
+      "notes": "Επίσης! as a reply = Same to you!"
+    },
+    {
+      "word": "μόνος",
+      "translation": "alone; only; (by) oneself",
+      "transliteration": "mónos",
+      "partOfSpeech": "adjective",
+      "definition": "Without other people; the only one.",
+      "forms": {"feminine": "μόνη", "neuter": "μόνο"},
+      "examples": [{"text": "Μένω μόνος μου.", "translation": "I live alone."}, {"text": "Είναι το μόνο παιδί της οικογένειας.", "translation": "He's the only child in the family."}],
+      "notes": "Μόνος μου / σου… = by myself / yourself…: Το έφτιαξα μόνος μου = I made it myself."
+    },
+    {
+      "word": "τελικά",
+      "translation": "in the end, finally; after all",
+      "transliteration": "teliká",
+      "partOfSpeech": "adverb",
+      "definition": "After everything; as it turned out.",
+      "examples": [{"text": "Τελικά δεν ήρθε.", "translation": "In the end he didn't come."}, {"text": "Τελικά είχες δίκιο.", "translation": "You were right after all."}]
+    },
+    {
+      "word": "πραγματικά",
+      "translation": "really, truly",
+      "transliteration": "praghmatiká",
+      "partOfSpeech": "adverb",
+      "definition": "In fact; very.",
+      "examples": [{"text": "Είναι πραγματικά ωραίο.", "translation": "It's really nice."}, {"text": "Πραγματικά δεν ξέρω.", "translation": "I really don't know."}],
+      "notes": "Adjective: πραγματικός = real."
+    },
+    {
+      "word": "απλά",
+      "translation": "simply, just; plainly",
+      "transliteration": "aplá",
+      "partOfSpeech": "adverb",
+      "definition": "Only; in a simple way.",
+      "examples": [{"text": "Απλά ήθελα να σε δω.", "translation": "I just wanted to see you."}, {"text": "Ντύνεται πολύ απλά.", "translation": "She dresses very simply."}],
+      "notes": "Also απλώς (simply, just). Adjective: απλός."
+    },
+    {
+      "word": "ειδικά",
+      "translation": "especially; specially",
+      "transliteration": "idhiká",
+      "partOfSpeech": "adverb",
+      "definition": "More than usual; for a particular purpose.",
+      "examples": [{"text": "Μου αρέσουν τα φρούτα, ειδικά τα κεράσια.", "translation": "I like fruit, especially cherries."}, {"text": "Το έφτιαξα ειδικά για σένα.", "translation": "I made it specially for you."}]
+    },
+    {
+      "word": "ιδιαίτερα",
+      "translation": "particularly, especially",
+      "transliteration": "idhiétera",
+      "partOfSpeech": "adverb",
+      "definition": "To a greater degree than others.",
+      "examples": [{"text": "Δεν είναι ιδιαίτερα δύσκολο.", "translation": "It's not particularly difficult."}, {"text": "Μου άρεσε ιδιαίτερα το τέλος της ταινίας.", "translation": "I particularly liked the end of the film."}]
+    },
+    {
+      "word": "κυρίως",
+      "translation": "mainly, mostly",
+      "transliteration": "kiríos",
+      "partOfSpeech": "adverb",
+      "definition": "For the most part.",
+      "examples": [{"text": "Τρώμε κυρίως ψάρι.", "translation": "We mostly eat fish."}, {"text": "Το καλοκαίρι έρχονται κυρίως τουρίστες.", "translation": "In summer it's mainly tourists who come."}]
+    },
+    {
+      "word": "δηλαδή",
+      "translation": "that is, I mean; so",
+      "transliteration": "dhiladhí",
+      "partOfSpeech": "adverb",
+      "definition": "Used to explain or check what was meant.",
+      "examples": [{"text": "Θα έρθω σε δύο μέρες, δηλαδή την Πέμπτη.", "translation": "I'll come in two days, that is, on Thursday."}, {"text": "Δηλαδή δεν έρχεσαι;", "translation": "So you're not coming?"}]
+    },
+    {
+      "word": "σχετικά",
+      "translation": "relatively; about, concerning",
+      "transliteration": "schetiká",
+      "partOfSpeech": "adverb",
+      "definition": "Compared with others; on the subject of.",
+      "examples": [{"text": "Το διαμέρισμα είναι σχετικά φθηνό.", "translation": "The apartment is relatively cheap."}, {"text": "Θέλω να σου μιλήσω σχετικά με το ταξίδι.", "translation": "I want to talk to you about the trip."}],
+      "notes": "Σχετικά με = about, regarding."
+    },
+    {
+      "word": "γενικά",
+      "translation": "generally, in general",
+      "transliteration": "yeniká",
+      "partOfSpeech": "adverb",
+      "definition": "In most cases; overall.",
+      "examples": [{"text": "Γενικά, μου αρέσει η Αθήνα.", "translation": "On the whole, I like Athens."}, {"text": "Γενικά ξυπνάω νωρίς.", "translation": "In general I wake up early."}]
+    },
+    {
+      "word": "απέναντι",
+      "translation": "opposite, across (the street)",
+      "transliteration": "apénandi",
+      "partOfSpeech": "adverb",
+      "definition": "On the other side; facing.",
+      "examples": [{"text": "Το φαρμακείο είναι απέναντι.", "translation": "The pharmacy is across the street."}, {"text": "Μένει απέναντι από το σχολείο.", "translation": "She lives opposite the school."}],
+      "notes": "Απέναντι από = opposite."
+    },
+    {
+      "word": "πλάι",
+      "translation": "beside, alongside",
+      "transliteration": "plái",
+      "partOfSpeech": "adverb",
+      "definition": "At the side of.",
+      "examples": [{"text": "Κάτσε πλάι μου.", "translation": "Sit beside me."}, {"text": "Περπατούσαμε πλάι πλάι.", "translation": "We were walking side by side."}],
+      "notes": "Same meaning as δίπλα. Πλάι πλάι = side by side."
+    },
+    {
+      "word": "ιδέα",
+      "article": "η",
+      "translation": "idea",
+      "transliteration": "idhéa",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A thought or plan.",
+      "forms": {"plural": "οι ιδέες", "genitive": "της ιδέας"},
+      "examples": [{"text": "Καλή ιδέα!", "translation": "Good idea!"}, {"text": "Δεν έχω ιδέα.", "translation": "I have no idea."}]
+    },
+    {
+      "word": "σκέψη",
+      "article": "η",
+      "translation": "thought",
+      "transliteration": "sképsi",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "Something you think; the act of thinking.",
+      "forms": {"plural": "οι σκέψεις", "genitive": "της σκέψης"},
+      "examples": [{"text": "Είναι μια ωραία σκέψη.", "translation": "That's a nice thought."}, {"text": "Είμαι σε σκέψεις.", "translation": "I'm thinking it over. (literally \"I'm in thoughts\")"}],
+      "notes": "Σκέφτομαι = to think."
+    },
+    {
+      "word": "γνώμη",
+      "article": "η",
+      "translation": "opinion",
+      "transliteration": "ghnómi",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "What you think about something.",
+      "forms": {"plural": "οι γνώμες", "genitive": "της γνώμης"},
+      "examples": [{"text": "Ποια είναι η γνώμη σου;", "translation": "What's your opinion?"}, {"text": "Άλλαξα γνώμη.", "translation": "I changed my mind."}],
+      "notes": "Κατά τη γνώμη μου = in my opinion."
+    },
+    {
+      "word": "απάντηση",
+      "article": "η",
+      "translation": "answer, reply",
+      "transliteration": "apándisi",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "What you say or write back to a question or message.",
+      "forms": {"plural": "οι απαντήσεις", "genitive": "της απάντησης"},
+      "examples": [{"text": "Περιμένω την απάντησή σου.", "translation": "I'm waiting for your answer."}, {"text": "Ποια είναι η σωστή απάντηση;", "translation": "What's the right answer?"}]
+    },
+    {
+      "word": "ερώτηση",
+      "article": "η",
+      "translation": "question",
+      "transliteration": "erótisi",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "Something you ask.",
+      "forms": {"plural": "οι ερωτήσεις", "genitive": "της ερώτησης"},
+      "examples": [{"text": "Μπορώ να κάνω μια ερώτηση;", "translation": "Can I ask a question?"}, {"text": "Καλή ερώτηση!", "translation": "Good question!"}],
+      "notes": "Κάνω μια ερώτηση = to ask a question."
+    },
+    {
+      "word": "λύση",
+      "article": "η",
+      "translation": "solution",
+      "transliteration": "lísi",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A way of solving a problem.",
+      "forms": {"plural": "οι λύσεις", "genitive": "της λύσης"},
+      "examples": [{"text": "Βρήκαμε λύση.", "translation": "We found a solution."}, {"text": "Δεν υπάρχει άλλη λύση.", "translation": "There's no other solution."}]
+    },
+    {
+      "word": "τρόπος",
+      "article": "ο",
+      "translation": "way, manner",
+      "transliteration": "trópos",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "definition": "How something is done.",
+      "forms": {"plural": "οι τρόποι", "genitive": "του τρόπου"},
+      "examples": [{"text": "Με ποιον τρόπο;", "translation": "In what way?"}, {"text": "Έχει καλούς τρόπους.", "translation": "He has good manners."}],
+      "notes": "Οι τρόποι = manners. Με κάθε τρόπο = by all means."
+    },
+    {
+      "word": "στιγμή",
+      "article": "η",
+      "translation": "moment",
+      "transliteration": "stighmí",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A very short period of time.",
+      "forms": {"plural": "οι στιγμές", "genitive": "της στιγμής"},
+      "examples": [{"text": "Μια στιγμή, παρακαλώ.", "translation": "One moment, please."}, {"text": "Ήταν η καλύτερη στιγμή της ζωής μου.", "translation": "It was the best moment of my life."}],
+      "notes": "Αυτή τη στιγμή = right now."
+    },
+    {
+      "word": "αρχή",
+      "article": "η",
+      "translation": "beginning, start; principle",
+      "transliteration": "archí",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "The first part of something; a basic rule.",
+      "forms": {"plural": "οι αρχές", "genitive": "της αρχής"},
+      "examples": [{"text": "Στην αρχή ήταν δύσκολο.", "translation": "At the beginning it was difficult."}, {"text": "Είναι θέμα αρχής.", "translation": "It's a matter of principle."}],
+      "notes": "Από την αρχή = from the start. Οι αρχές = the authorities."
+    },
+    {
+      "word": "προσπάθεια",
+      "article": "η",
+      "translation": "effort, attempt",
+      "transliteration": "prospáthia",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "Trying to do something.",
+      "forms": {"plural": "οι προσπάθειες", "genitive": "της προσπάθειας"},
+      "examples": [{"text": "Κάνε μια προσπάθεια!", "translation": "Give it a try!"}, {"text": "Τα κατάφερα με την πρώτη προσπάθεια.", "translation": "I managed it on the first attempt."}],
+      "notes": "Προσπαθώ = to try."
+    },
+    {
+      "word": "τέλος",
+      "article": "το",
+      "translation": "end",
+      "transliteration": "télos",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "The final part of something.",
+      "forms": {"plural": "τα τέλη", "genitive": "του τέλους"},
+      "examples": [{"text": "Στο τέλος του δρόμου στρίψε δεξιά.", "translation": "At the end of the road turn right."}, {"text": "Δεν είδα το τέλος της ταινίας.", "translation": "I didn't see the end of the film."}],
+      "notes": "Τέλος! = That's it! Τα τέλη = fees, charges."
+    },
+    {
+      "word": "μέση",
+      "article": "η",
+      "translation": "middle; waist, lower back",
+      "transliteration": "mési",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "The centre of something; the middle of the body.",
+      "forms": {"plural": "οι μέσες", "genitive": "της μέσης"},
+      "examples": [{"text": "Στη μέση του δωματίου υπάρχει ένα τραπέζι.", "translation": "There's a table in the middle of the room."}, {"text": "Με πονάει η μέση μου.", "translation": "My lower back hurts."}],
+      "notes": "Στη μέση = in the middle."
+    },
+    {
+      "word": "σειρά",
+      "article": "η",
+      "translation": "turn; row; series; order",
+      "transliteration": "sirá",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A line or sequence of things; your turn to do something.",
+      "forms": {"plural": "οι σειρές", "genitive": "της σειράς"},
+      "examples": [{"text": "Είναι η σειρά σου.", "translation": "It's your turn."}, {"text": "Βλέπω μια καινούρια σειρά στην τηλεόραση.", "translation": "I'm watching a new series on TV."}],
+      "notes": "Με τη σειρά = in order, in turn."
+    },
+    {
+      "word": "αιτία",
+      "article": "η",
+      "translation": "cause, reason",
+      "transliteration": "etía",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "Something that makes something else happen.",
+      "forms": {"plural": "οι αιτίες", "genitive": "της αιτίας"},
+      "examples": [{"text": "Ποια ήταν η αιτία του ατυχήματος;", "translation": "What was the cause of the accident?"}, {"text": "Θύμωσε χωρίς αιτία.", "translation": "He got angry for no reason."}]
+    },
+    {
+      "word": "περιοχή",
+      "article": "η",
+      "translation": "area, region",
+      "transliteration": "periochí",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A part of a town, country or the world.",
+      "forms": {"plural": "οι περιοχές", "genitive": "της περιοχής"},
+      "examples": [{"text": "Μένω σε μια ήσυχη περιοχή.", "translation": "I live in a quiet area."}, {"text": "Η περιοχή είναι γνωστή για το κρασί της.", "translation": "The region is known for its wine."}]
+    },
+    {
+      "word": "ομάδα",
+      "article": "η",
+      "translation": "group; team",
+      "transliteration": "omádha",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A number of people together; a sports team.",
+      "forms": {"plural": "οι ομάδες", "genitive": "της ομάδας"},
+      "examples": [{"text": "Ποια ομάδα υποστηρίζεις;", "translation": "Which team do you support?"}, {"text": "Δουλεύουμε σε ομάδες των τεσσάρων.", "translation": "We work in groups of four."}]
+    },
+    {
+      "word": "αποτέλεσμα",
+      "article": "το",
+      "translation": "result, outcome",
+      "transliteration": "apotélezma",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "What happens because of something; a final score.",
+      "forms": {"plural": "τα αποτελέσματα", "genitive": "του αποτελέσματος"},
+      "examples": [{"text": "Ποιο ήταν το αποτέλεσμα του αγώνα;", "translation": "What was the result of the match?"}, {"text": "Περιμένω τα αποτελέσματα των εξετάσεων.", "translation": "I'm waiting for my exam results."}]
+    },
+    {
+      "word": "αριθμός",
+      "article": "ο",
+      "translation": "number",
+      "transliteration": "arithmós",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "definition": "A word or symbol for an amount.",
+      "forms": {"plural": "οι αριθμοί", "genitive": "του αριθμού"},
+      "examples": [{"text": "Ποιος είναι ο αριθμός του τηλεφώνου σου;", "translation": "What's your phone number?"}, {"text": "Γράψε τον αριθμό εδώ.", "translation": "Write the number here."}],
+      "notes": "In everyday speech you also hear το νούμερο."
+    },
+    {
+      "word": "μισό",
+      "article": "το",
+      "translation": "half",
+      "transliteration": "misó",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "One of two equal parts.",
+      "forms": {"plural": "τα μισά", "genitive": "του μισού"},
+      "examples": [{"text": "Θέλω μόνο το μισό.", "translation": "I only want half."}, {"text": "Έφαγε τα μισά και άφησε τα υπόλοιπα.", "translation": "He ate half and left the rest."}],
+      "notes": "Also an adjective, μισός, μισή, μισό: μισή ώρα = half an hour; δύο και μισή = half past two."
+    },
+    {
+      "word": "σκοπός",
+      "article": "ο",
+      "translation": "purpose, aim; tune",
+      "transliteration": "skopós",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "definition": "What you want to achieve; also a melody.",
+      "forms": {"plural": "οι σκοποί", "genitive": "του σκοπού"},
+      "examples": [{"text": "Ποιος είναι ο σκοπός του ταξιδιού σας;", "translation": "What's the purpose of your trip?"}, {"text": "Ο σκοπός μας είναι να βοηθήσουμε.", "translation": "Our aim is to help."}]
+    },
+    {
+      "word": "κομμάτι",
+      "article": "το",
+      "translation": "piece; part",
+      "transliteration": "komáti",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "A part of something; also a song or track.",
+      "forms": {"plural": "τα κομμάτια", "genitive": "του κομματιού"},
+      "examples": [{"text": "Θέλεις ένα κομμάτι κέικ;", "translation": "Would you like a piece of cake?"}, {"text": "Το βάζο έγινε κομμάτια.", "translation": "The vase broke into pieces."}]
+    },
+    {
+      "word": "ζευγάρι",
+      "article": "το",
+      "translation": "couple; pair",
+      "transliteration": "zevgári",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "Two people together; two things of the same kind.",
+      "forms": {"plural": "τα ζευγάρια", "genitive": "του ζευγαριού"},
+      "examples": [{"text": "Είναι ζευγάρι εδώ και τρία χρόνια.", "translation": "They've been a couple for three years."}, {"text": "Αγόρασα ένα ζευγάρι παπούτσια.", "translation": "I bought a pair of shoes."}]
+    },
+    {
+      "word": "γραφείο",
+      "article": "το",
+      "translation": "office; desk",
+      "transliteration": "ghrafío",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "A place where people work; a writing table.",
+      "forms": {"plural": "τα γραφεία", "genitive": "του γραφείου"},
+      "examples": [{"text": "Είμαι ακόμα στο γραφείο.", "translation": "I'm still at the office."}, {"text": "Τα χαρτιά είναι πάνω στο γραφείο μου.", "translation": "The papers are on my desk."}],
+      "notes": "Ταξιδιωτικό γραφείο = travel agency."
+    },
+    {
+      "word": "στόχος",
+      "article": "ο",
+      "translation": "goal, target",
+      "transliteration": "stóchos",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "definition": "Something you aim at or want to achieve.",
+      "forms": {"plural": "οι στόχοι", "genitive": "του στόχου"},
+      "examples": [{"text": "Ο στόχος μου είναι να μιλάω καλά ελληνικά.", "translation": "My goal is to speak Greek well."}, {"text": "Πέτυχε τον στόχο.", "translation": "He hit the target."}]
+    },
+    {
+      "word": "μαγαζί",
+      "article": "το",
+      "translation": "shop, store",
+      "transliteration": "maghazí",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "A place where things are sold.",
+      "forms": {"plural": "τα μαγαζιά", "genitive": "του μαγαζιού"},
+      "examples": [{"text": "Το μαγαζί κλείνει στις εννιά.", "translation": "The shop closes at nine."}, {"text": "Έχει ένα μαγαζί με ρούχα.", "translation": "She has a clothes shop."}],
+      "notes": "Also used for a café, bar or restaurant. Formal: το κατάστημα."
+    },
+    {
+      "word": "αγορά",
+      "article": "η",
+      "translation": "market; purchase, shopping",
+      "transliteration": "aghorá",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A place for buying and selling; something bought.",
+      "forms": {"plural": "οι αγορές", "genitive": "της αγοράς"},
+      "examples": [{"text": "Πάω στην αγορά να ψωνίσω.", "translation": "I'm going to the market to do some shopping."}, {"text": "Έκανα καλή αγορά.", "translation": "I made a good buy."}],
+      "notes": "Κάνω αγορές = to go shopping. Η Αρχαία Αγορά = the Ancient Agora."
+    },
+    {
+      "word": "σημασία",
+      "article": "η",
+      "translation": "meaning; importance",
+      "transliteration": "simasía",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "What something means; how much it matters.",
+      "forms": {"plural": "οι σημασίες", "genitive": "της σημασίας"},
+      "examples": [{"text": "Ποια είναι η σημασία αυτής της λέξης;", "translation": "What's the meaning of this word?"}, {"text": "Δεν έχει σημασία.", "translation": "It doesn't matter."}]
+    },
+    {
+      "word": "τιμή",
+      "article": "η",
+      "translation": "price; honour",
+      "transliteration": "timí",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "How much something costs; respect.",
+      "forms": {"plural": "οι τιμές", "genitive": "της τιμής"},
+      "examples": [{"text": "Ποια είναι η τιμή;", "translation": "What's the price?"}, {"text": "Είναι μεγάλη τιμή για μένα.", "translation": "It's a great honour for me."}],
+      "notes": "Οι τιμές ανεβαίνουν = prices are rising."
+    },
+    {
+      "word": "χρήμα",
+      "article": "το",
+      "translation": "money",
+      "transliteration": "chríma",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "Money; mostly used in the plural.",
+      "forms": {"plural": "τα χρήματα", "genitive": "του χρήματος"},
+      "examples": [{"text": "Ο χρόνος είναι χρήμα.", "translation": "Time is money."}, {"text": "Δεν έχω αρκετά χρήματα.", "translation": "I don't have enough money."}],
+      "notes": "Usually plural, τα χρήματα; more formal than τα λεφτά."
+    },
+    {
+      "word": "κατάσταση",
+      "article": "η",
+      "translation": "situation; condition, state",
+      "transliteration": "katástasi",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "How things are at a particular time.",
+      "forms": {"plural": "οι καταστάσεις", "genitive": "της κατάστασης"},
+      "examples": [{"text": "Η κατάσταση είναι δύσκολη.", "translation": "The situation is difficult."}, {"text": "Το αυτοκίνητο είναι σε καλή κατάσταση.", "translation": "The car is in good condition."}]
+    },
+    {
+      "word": "τράπεζα",
+      "article": "η",
+      "translation": "bank",
+      "transliteration": "trápeza",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A business that keeps and lends money.",
+      "forms": {"plural": "οι τράπεζες", "genitive": "της τράπεζας"},
+      "examples": [{"text": "Πρέπει να πάω στην τράπεζα.", "translation": "I have to go to the bank."}, {"text": "Δουλεύει σε μια τράπεζα.", "translation": "He works at a bank."}],
+      "notes": "Don't confuse it with το τραπέζι (table)."
+    },
+    {
+      "word": "πόλεμος",
+      "article": "ο",
+      "translation": "war",
+      "transliteration": "pólemos",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "definition": "Armed fighting between countries or groups.",
+      "forms": {"plural": "οι πόλεμοι", "genitive": "του πολέμου"},
+      "examples": [{"text": "Ο παππούς μου πολέμησε στον πόλεμο.", "translation": "My grandfather fought in the war."}, {"text": "Κανείς δεν θέλει πόλεμο.", "translation": "Nobody wants war."}]
+    },
+    {
+      "word": "δύναμη",
+      "article": "η",
+      "translation": "strength; power; force",
+      "transliteration": "dhínami",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "Physical strength, energy or power.",
+      "forms": {"plural": "οι δυνάμεις", "genitive": "της δύναμης"},
+      "examples": [{"text": "Δεν έχω δύναμη σήμερα.", "translation": "I have no energy today."}, {"text": "Η δύναμη της θάλασσας είναι τεράστια.", "translation": "The power of the sea is enormous."}]
+    },
+    {
+      "word": "περίπτωση",
+      "article": "η",
+      "translation": "case, instance",
+      "transliteration": "períptosi",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A particular situation or example.",
+      "forms": {"plural": "οι περιπτώσεις", "genitive": "της περίπτωσης"},
+      "examples": [{"text": "Σε περίπτωση βροχής, θα μείνουμε μέσα.", "translation": "In case of rain, we'll stay inside."}, {"text": "Σε καμία περίπτωση!", "translation": "No way! (literally \"in no case\")"}],
+      "notes": "Σε κάθε περίπτωση = in any case."
+    },
+    {
+      "word": "γενιά",
+      "article": "η",
+      "translation": "generation",
+      "transliteration": "yeniá",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "All the people born around the same time.",
+      "forms": {"plural": "οι γενιές", "genitive": "της γενιάς"},
+      "examples": [{"text": "Η γενιά μου μεγάλωσε χωρίς κινητά.", "translation": "My generation grew up without mobile phones."}, {"text": "Το σπίτι ανήκει στην οικογένεια εδώ και τρεις γενιές.", "translation": "The house has belonged to the family for three generations."}]
+    },
+    {
+      "word": "εφημερίδα",
+      "article": "η",
+      "translation": "newspaper",
+      "transliteration": "efimerídha",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A printed or online publication with news.",
+      "forms": {"plural": "οι εφημερίδες", "genitive": "της εφημερίδας"},
+      "examples": [{"text": "Διαβάζω εφημερίδα κάθε πρωί.", "translation": "I read the newspaper every morning."}, {"text": "Το είδα στην εφημερίδα.", "translation": "I saw it in the newspaper."}]
+    },
+    {
+      "word": "γεγονός",
+      "article": "το",
+      "translation": "fact; event",
+      "transliteration": "yeghonós",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "Something that is true; something that happens.",
+      "forms": {"plural": "τα γεγονότα", "genitive": "του γεγονότος"},
+      "examples": [{"text": "Είναι γεγονός ότι η ζωή ακρίβυνε.", "translation": "It's a fact that life has got more expensive."}, {"text": "Η τηλεόραση έδειξε τα γεγονότα ζωντανά.", "translation": "The TV showed the events live."}]
+    },
+    {
+      "word": "τηλεόραση",
+      "article": "η",
+      "translation": "television, TV",
+      "transliteration": "tileórasi",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "definition": "A device showing programmes; the programmes themselves.",
+      "forms": {"plural": "οι τηλεοράσεις", "genitive": "της τηλεόρασης"},
+      "examples": [{"text": "Τι έχει απόψε η τηλεόραση;", "translation": "What's on TV tonight?"}, {"text": "Κλείσε την τηλεόραση!", "translation": "Turn off the TV!"}],
+      "notes": "Βλέπω τηλεόραση = to watch TV."
+    },
+    {
+      "word": "ραδιόφωνο",
+      "article": "το",
+      "translation": "radio",
+      "transliteration": "radhiófono",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "A device for listening to broadcasts; broadcasting itself.",
+      "forms": {"plural": "τα ραδιόφωνα", "genitive": "του ραδιοφώνου"},
+      "examples": [{"text": "Ακούω ραδιόφωνο στο αυτοκίνητο.", "translation": "I listen to the radio in the car."}, {"text": "Το άκουσα στο ραδιόφωνο.", "translation": "I heard it on the radio."}]
+    },
+    {
+      "word": "είδος",
+      "article": "το",
+      "translation": "kind, type; species",
+      "transliteration": "ídhos",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "A group of things that are alike.",
+      "forms": {"plural": "τα είδη", "genitive": "του είδους"},
+      "examples": [{"text": "Τι είδους μουσική ακούς;", "translation": "What kind of music do you listen to?"}, {"text": "Αυτό το είδος πουλιού είναι σπάνιο.", "translation": "This species of bird is rare."}],
+      "notes": "Τι είδους…; = What kind of…? Τα είδη = goods, items."
+    },
+    {
+      "word": "μήνυμα",
+      "article": "το",
+      "translation": "message; text message",
+      "transliteration": "mínima",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "Information sent to someone.",
+      "forms": {"plural": "τα μηνύματα", "genitive": "του μηνύματος"},
+      "examples": [{"text": "Σου έστειλα μήνυμα.", "translation": "I sent you a message."}, {"text": "Άφησέ μου ένα μήνυμα.", "translation": "Leave me a message."}]
+    },
+    {
+      "word": "κινητό",
+      "article": "το",
+      "translation": "mobile phone",
+      "transliteration": "kinitó",
+      "partOfSpeech": "noun",
+      "gender": "neuter",
+      "definition": "A phone you carry with you.",
+      "forms": {"plural": "τα κινητά", "genitive": "του κινητού"},
+      "examples": [{"text": "Πού είναι το κινητό μου;", "translation": "Where's my phone?"}, {"text": "Πάρε με στο κινητό.", "translation": "Call me on my mobile."}],
+      "notes": "Short for κινητό τηλέφωνο."
+    }
+  ]
+}
